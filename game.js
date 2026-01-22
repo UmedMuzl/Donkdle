@@ -7,6 +7,7 @@ class DonkdleGame {
         this.maxGuesses = Infinity;
         this.gameOver = false;
         this.gameWon = false;
+        this.mode = this.getGameMode();
         
         this.init();
     }
@@ -21,6 +22,11 @@ class DonkdleGame {
         if (this.gameOver) {
             this.showGameOver();
         }
+    }
+
+    getGameMode() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('mode') || 'daily';
     }
 
     async loadLocations() {
@@ -47,15 +53,22 @@ class DonkdleGame {
     }
 
     selectDailyLocation() {
-        // Use today's date as seed for consistent daily puzzle
-        const today = new Date();
-        const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
-        
-        // Simple seeded random
-        const index = this.seededRandom(seed) % this.locations.length;
-        this.targetLocation = this.locations[index];
-        
-        console.log('Today\'s location selected:', this.targetLocation.name);
+        if (this.mode === 'random') {
+            // Random mode: select a random location each time
+            const index = Math.floor(Math.random() * this.locations.length);
+            this.targetLocation = this.locations[index];
+            console.log('Random location selected:', this.targetLocation.name);
+        } else {
+            // Daily mode: use today's date as seed for consistent daily puzzle
+            const today = new Date();
+            const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+            
+            // Simple seeded random
+            const index = this.seededRandom(seed) % this.locations.length;
+            this.targetLocation = this.locations[index];
+            
+            console.log('Today\'s location selected:', this.targetLocation.name);
+        }
     }
 
     seededRandom(seed) {
@@ -237,14 +250,23 @@ class DonkdleGame {
             regionStatus = 'present';
         }
 
-        // Kong evaluation
+        // Kong evaluation - handle multiple kongs
         let kongStatus = 'absent';
-        if (guessed.kong === target.kong) {
+        const guessedKongs = guessed.kong.split(',').map(k => k.trim());
+        const targetKongs = target.kong.split(',').map(k => k.trim());
+        
+        // Check if kong lists match exactly
+        const guessedSet = new Set(guessedKongs);
+        const targetSet = new Set(targetKongs);
+        
+        if (guessedSet.size === targetSet.size && [...guessedSet].every(k => targetSet.has(k))) {
             kongStatus = 'correct';
         } else {
-            // Check for partial match (both have "Any" or share a kong)
-            // For now, simple check - in full version would handle multi-kong locations
-            if (guessed.kong === 'Any' || target.kong === 'Any') {
+            // Check if at least one kong matches
+            const hasOverlap = [...guessedSet].some(k => targetSet.has(k));
+            const hasAny = guessedKongs.includes('Any') || targetKongs.includes('Any');
+            
+            if (hasOverlap || hasAny) {
                 kongStatus = 'present';
             }
         }
@@ -261,23 +283,33 @@ class DonkdleGame {
             requirementArrow = guessed.requirement_count < target.requirement_count ? '↑' : '↓';
         }
 
-        // Items evaluation
-        const itemCategories = ['needs_pad', 'needs_gun', 'needs_barrel', 'needs_active', 'needs_instrument', 'needs_training'];
-        const matchingCategories = itemCategories.filter(cat => guessed[cat] === target[cat]);
-        const matchCount = matchingCategories.length;
-
-        let itemStatus = 'absent';
-        if (matchCount === 6) {
-            itemStatus = 'correct';
-        } else if (matchCount > 0) {
-            itemStatus = 'present';
+        // Moves evaluation - must match exactly for green, any overlap for yellow
+        const guessedMoves = new Set(guessed.moves || []);
+        const targetMoves = new Set(target.moves || []);
+        
+        // Calculate move matches
+        const commonMoves = [...guessedMoves].filter(m => targetMoves.has(m));
+        const missingMoves = [...targetMoves].filter(m => !guessedMoves.has(m));
+        const extraMoves = [...guessedMoves].filter(m => !targetMoves.has(m));
+        
+        let movesStatus = 'absent';
+        // Green only if exact match (same moves, no extras, no missing)
+        if (guessedMoves.size === targetMoves.size && 
+            commonMoves.length === targetMoves.size && 
+            missingMoves.length === 0 && 
+            extraMoves.length === 0) {
+            movesStatus = 'correct';
+        } else if (commonMoves.length > 0) {
+            // Yellow if at least one move matches
+            movesStatus = 'present';
         }
 
-        // Individual item feedback for display
-        const itemFeedback = itemCategories.map(cat => ({
-            name: cat.replace('needs_', '').charAt(0).toUpperCase(),
-            status: guessed[cat] === target[cat] ? 'correct' : 'absent'
-        }));
+        // Prepare move feedback for display
+        const moveFeedback = {
+            common: commonMoves,
+            missing: missingMoves,
+            extra: extraMoves
+        };
 
         return {
             region: { status: regionStatus, value: guessed.hint_region },
@@ -287,7 +319,7 @@ class DonkdleGame {
                 value: guessed.requirement_count,
                 arrow: requirementArrow
             },
-            items: { status: itemStatus, items: itemFeedback }
+            moves: { status: movesStatus, feedback: moveFeedback }
         };
     }
 
@@ -313,8 +345,18 @@ class DonkdleGame {
     }
 
     createGuessRow(guess) {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'guess-row';
+
+        // Location name header
+        const nameHeader = document.createElement('div');
+        nameHeader.className = 'guess-location-name';
+        nameHeader.textContent = guess.location.name;
+        wrapper.appendChild(nameHeader);
+
+        // Cells container
         const row = document.createElement('div');
-        row.className = 'guess-row';
+        row.className = 'guess-cells-container';
 
         // Region cell
         const regionCell = document.createElement('div');
@@ -346,27 +388,53 @@ class DonkdleGame {
         `;
         row.appendChild(reqCell);
 
-        // Items cell
-        const itemsCell = document.createElement('div');
-        itemsCell.className = `guess-cell ${guess.feedback.items.status}`;
-        itemsCell.innerHTML = `
-            <div class="cell-label">ITEMS (P G B A I T)</div>
-            <div class="items-grid">
-                ${guess.feedback.items.items.map(item => 
-                    `<div class="item-indicator ${item.status}">${item.name}</div>`
-                ).join('')}
-            </div>
+        // Moves cell
+        const movesCell = document.createElement('div');
+        
+        // Safety check for backward compatibility with old saved games
+        if (!guess.feedback.moves) {
+            guess.feedback.moves = { status: 'absent', feedback: { common: [], missing: [], extra: [] } };
+        }
+        
+        movesCell.className = `guess-cell ${guess.feedback.moves.status}`;
+        
+        let movesDisplay = '';
+        const f = guess.feedback.moves.feedback;
+        
+        if (f.common.length === 0 && f.extra.length === 0) {
+            movesDisplay = '<div class="moves-none">None</div>';
+        } else {
+            if (f.common.length > 0) {
+                movesDisplay += '<div class="moves-section">';
+                f.common.forEach(move => {
+                    movesDisplay += `<span class="move-chip move-correct">✓ ${move}</span>`;
+                });
+                movesDisplay += '</div>';
+            }
+            if (f.extra.length > 0) {
+                movesDisplay += '<div class="moves-section">';
+                f.extra.forEach(move => {
+                    movesDisplay += `<span class="move-chip move-extra">${move}</span>`;
+                });
+                movesDisplay += '</div>';
+            }
+        }
+        
+        movesCell.innerHTML = `
+            <div class="cell-label">MOVES</div>
+            <div class="moves-display">${movesDisplay}</div>
         `;
-        row.appendChild(itemsCell);
+        row.appendChild(movesCell);
 
-        return row;
+        wrapper.appendChild(row);
+        return wrapper;
     }
 
     createEmptyRow() {
         const row = document.createElement('div');
-        row.className = 'guess-row';
+        row.className = 'guess-cells-container';
 
-        ['REGION', 'KONG', 'REQS', 'ITEMS (P G B A I T)'].forEach(label => {
+        ['REGION', 'KONG', 'REQS', 'MOVES'].forEach(label => {
             const cell = document.createElement('div');
             cell.className = 'guess-cell empty';
             cell.innerHTML = `<div class="cell-label">${label}</div>`;
@@ -426,18 +494,39 @@ class DonkdleGame {
             message.textContent = `You found the location in ${this.guesses.length} ${this.guesses.length === 1 ? 'guess' : 'guesses'}!`;
         } else {
             title.textContent = '😢 Game Over';
-            message.textContent = 'Better luck tomorrow!';
+            message.textContent = this.mode === 'random' ? 'Better luck next time!' : 'Better luck tomorrow!';
         }
 
         // Show the answer
+        const movesText = this.targetLocation.moves && this.targetLocation.moves.length > 0
+            ? this.targetLocation.moves.join(', ')
+            : 'None';
+        
+        let playAgainButton = '';
+        if (this.mode === 'random') {
+            playAgainButton = '<button id="playAgainBtn" class="guess-btn" style="margin-top: 20px;">Play Again</button>';
+        }
+        
         answerDisplay.innerHTML = `
-            <h3>Today's Location:</h3>
+            <h3>${this.mode === 'random' ? 'The Location:' : "Today's Location:"}</h3>
             <p><span class="answer-label">Name:</span> ${this.targetLocation.name}</p>
             <p><span class="answer-label">Region:</span> ${this.targetLocation.hint_region}</p>
             <p><span class="answer-label">Level:</span> ${this.targetLocation.level}</p>
             <p><span class="answer-label">Kong:</span> ${this.targetLocation.kong}</p>
-            <p><span class="answer-label">Requirements:</span> ${this.targetLocation.requirement_count}</p>
+            <p><span class="answer-label">Move Count:</span> ${this.targetLocation.requirement_count}</p>
+            <p><span class="answer-label">Moves:</span> ${movesText}</p>
+            ${playAgainButton}
         `;
+        
+        // Add play again button handler for random mode
+        if (this.mode === 'random') {
+            const playAgainBtnElement = document.getElementById('playAgainBtn');
+            if (playAgainBtnElement) {
+                playAgainBtnElement.addEventListener('click', () => {
+                    window.location.reload();
+                });
+            }
+        }
 
         this.updateStats();
         this.showModal('gameOverModal');
@@ -455,7 +544,7 @@ class DonkdleGame {
             text += this.statusToEmoji(f.region.status);
             text += this.statusToEmoji(f.kong.status);
             text += this.statusToEmoji(f.requirement.status);
-            text += this.statusToEmoji(f.items.status);
+            text += this.statusToEmoji(f.moves.status);
             text += '\n';
         });
         
@@ -506,26 +595,51 @@ class DonkdleGame {
 
     // Local Storage Methods
     getTodayKey() {
+        if (this.mode === 'random') {
+            // Don't save random game state
+            return null;
+        }
         const today = new Date();
         return `donkdle_${today.getFullYear()}_${today.getMonth() + 1}_${today.getDate()}`;
     }
 
     saveGameState() {
+        const key = this.getTodayKey();
+        if (!key) return; // Don't save random games
+        
         const state = {
             guesses: this.guesses,
             gameOver: this.gameOver,
             gameWon: this.gameWon
         };
-        localStorage.setItem(this.getTodayKey(), JSON.stringify(state));
+        localStorage.setItem(key, JSON.stringify(state));
     }
 
     loadGameState() {
-        const saved = localStorage.getItem(this.getTodayKey());
+        const key = this.getTodayKey();
+        if (!key) return; // Don't load for random games
+        
+        const saved = localStorage.getItem(key);
         if (saved) {
-            const state = JSON.parse(saved);
-            this.guesses = state.guesses || [];
-            this.gameOver = state.gameOver || false;
-            this.gameWon = state.gameWon || false;
+            try {
+                const state = JSON.parse(saved);
+                // Validate that saved guesses have the current feedback structure
+                if (state.guesses && state.guesses.length > 0) {
+                    const firstGuess = state.guesses[0];
+                    if (!firstGuess.feedback || !firstGuess.feedback.moves) {
+                        // Old format - clear saved state
+                        console.log('Clearing old game format');
+                        localStorage.removeItem(this.getTodayKey());
+                        return;
+                    }
+                }
+                this.guesses = state.guesses || [];
+                this.gameOver = state.gameOver || false;
+                this.gameWon = state.gameWon || false;
+            } catch (e) {
+                console.error('Error loading game state:', e);
+                localStorage.removeItem(this.getTodayKey());
+            }
         }
     }
 

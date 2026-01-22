@@ -84,6 +84,28 @@ h1 {
 }
 
 .guess-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.guess-location-name {
+    background-color: rgba(58, 58, 60, 0.5);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.guess-row .guess-cell {
+    display: inline-block;
+}
+
+.guess-cells-container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
     gap: 8px;
@@ -141,6 +163,65 @@ h1 {
     margin-left: 5px;
 }
 
+/* Moves Display Styles */
+.moves-display {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.moves-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+}
+
+.moves-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-right: 2px;
+}
+
+.moves-none {
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+.move-chip {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.move-correct {
+    background-color: rgba(83, 141, 78, 0.5);
+    color: #ffffff;
+    border: 1px solid rgba(83, 141, 78, 0.8);
+}
+
+.move-missing {
+    background-color: rgba(212, 175, 55, 0.5);
+    color: #ffffff;
+    border: 1px solid rgba(212, 175, 55, 0.8);
+}
+
+.move-extra {
+    background-color: rgba(129, 131, 132, 0.5);
+    color: #ffffff;
+    border: 1px solid rgba(129, 131, 132, 0.8);
+}
+
+/* Legacy items-grid styles (keeping for backwards compatibility) */
 .items-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -504,4 +585,40 @@ h1 {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--border-color);
+}
+
+/* Homepage Mode Selection Buttons */
+.mode-button {
+    display: block;
+    background-color: var(--tile-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.mode-button:hover {
+    background-color: rgba(83, 141, 78, 0.3);
+    border-color: var(--correct);
+    transform: translateY(-2px);
+}
+
+.mode-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.mode-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mode-description {
+    font-size: 0.9rem;
+    color: var(--text-muted);
 }
