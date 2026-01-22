@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donkdle - DK64 Location Wordle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍌 DONKDLE 🍌</h1>
+            <p class="subtitle">Guess the DK64 Location!</p>
+            <div class="header-buttons">
+                <a href="index.html" class="icon-btn" title="Back to Menu" style="text-decoration: none;">🏠</a>
+                <button id="helpBtn" class="icon-btn" title="How to Play">❓</button>
+                <button id="statsBtn" class="icon-btn" title="Statistics">📊</button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Game Board -->
+            <div id="gameBoard" class="game-board">
+                <!-- Rows will be generated dynamically -->
+            </div>
+
+            <!-- Input Section -->
+            <div class="input-section">
+                <div class="autocomplete-wrapper">
+                    <input 
+                        type="text" 
+                        id="locationInput" 
+                        placeholder="Type a location name..." 
+                        autocomplete="off"
+                    >
+                    <div id="autocompleteList" class="autocomplete-list"></div>
+                </div>
+                <button id="guessBtn" class="guess-btn">Guess</button>
+            </div>
+
+            <!-- Message Display -->
+            <div id="message" class="message"></div>
+        </main>
+    </div>
+
+    <!-- Help Modal -->
+    <div id="helpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeHelp">&times;</span>
+            <h2>How to Play</h2>
+            <p>Guess the DK64 location in 6 tries!</p>
+            
+            <div class="help-section">
+                <h3>🗺️ Region / Level</h3>
+                <p><span class="color-box green">Green</span> = Correct hint region</p>
+                <p><span class="color-box yellow">Yellow</span> = Correct level, wrong region</p>
+                <p><span class="color-box red">Red</span> = Incorrect</p>
+            </div>
+
+            <div class="help-section">
+                <h3>🐵 Kong</h3>
+                <p><span class="color-box green">Green</span> = Correct kong(s)</p>
+                <p><span class="color-box yellow">Yellow</span> = At least one kong matches</p>
+                <p><span class="color-box red">Red</span> = No kong matches</p>
+            </div>
+
+            <div class="help-section">
+                <h3>📋 Requirements</h3>
+                <p><span class="color-box green">Green</span> = Correct number of requirements</p>
+                <p><span class="color-box yellow">Yellow ↑</span> = Actual location needs more items</p>
+                <p><span class="color-box yellow">Yellow ↓</span> = Actual location needs fewer items</p>
+                <p><span class="color-box red">Red</span> = Far off</p>
+            </div>
+
+            <div class="help-section">
+                <h3>� Moves</h3>
+                <p>Shows the specific moves required for the location:</p>
+                <p><span class="color-box green">✓ Green</span> = Correct moves that match</p>
+                <p><span style="color: #d4af37; font-weight: bold;">Missing</span> = Moves the target needs but your guess doesn't have</p>
+                <p><span style="color: #818384;">Extra</span> = Moves your guess has but the target doesn't need</p>
+                <p><span class="color-box green">Green cell</span> = Perfect match (all moves correct)</p>
+                <p><span class="color-box yellow">Yellow cell</span> = Some moves match</p>
+                <p><span class="color-box red">Red cell</span> = No moves match</p>
+            </div>
+
+            <p class="help-note"><strong>Note:</strong> Shop locations are excluded from the game. Kasplat (blueprint) locations are included!</p>
+        </div>
+    </div>
+
+    <!-- Stats Modal -->
+    <div id="statsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeStats">&times;</span>
+            <h2>Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value" id="gamesPlayed">0</div>
+                    <div class="stat-label">Played</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="winPercentage">0</div>
+                    <div class="stat-label">Win %</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="currentStreak">0</div>
+                    <div class="stat-label">Current Streak</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="maxStreak">0</div>
+                    <div class="stat-label">Max Streak</div>
+                </div>
+            </div>
+            <div id="shareSection" class="share-section" style="display: none;">
+                <h3>Share your result:</h3>
+                <button id="shareBtn" class="share-btn">📋 Copy Results</button>
+                <div id="shareText" class="share-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Over Modal -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <h2 id="gameOverTitle">Congratulations!</h2>
+            <p id="gameOverMessage"></p>
+            <div id="answerDisplay" class="answer-display"></div>
+            <button id="shareResultsBtn" class="share-btn">📋 Share Results</button>
+            <button id="viewStatsBtn" class="guess-btn">View Statistics</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,4213 @@
+[
+  {
+    "id": "IslesDonkeyJapesRock",
+    "name": "Isles Japes Lobby Entrance Item",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "IslesTinyCagedBanana",
+    "name": "Isles Tiny Feather Cage",
+    "hint_region": "Outerisles",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "feather"
+    ]
+  },
+  {
+    "id": "IslesTinyInstrumentPad",
+    "name": "Isles Tiny Saxophone Pad",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "IslesLankyCagedBanana",
+    "name": "Isles Lanky Grape Cage",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "grape"
+    ]
+  },
+  {
+    "id": "IslesChunkyCagedBanana",
+    "name": "Isles Chunky Pineapple Cage",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "pineapple"
+    ]
+  },
+  {
+    "id": "IslesChunkyInstrumentPad",
+    "name": "Isles Chunky Triangle Pad",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "barrels",
+      "climbing",
+      "triangle",
+      "vines"
+    ]
+  },
+  {
+    "id": "IslesChunkyPoundtheX",
+    "name": "Isles Chunky Pound the X",
+    "hint_region": "Outerisles",
+    "level": "DK Isles",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "hunky",
+      "slam"
+    ]
+  },
+  {
+    "id": "IslesBananaFairyIsland",
+    "name": "Isles Fairy (Small Island)",
+    "hint_region": "Outerisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "IslesBananaFairyCrocodisleIsle",
+    "name": "Isles Fairy (Upper Krem Isles)",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "IslesLankyPrisonOrangsprint",
+    "name": "Isles Lanky Sprint Cage",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "sprint"
+    ]
+  },
+  {
+    "id": "CameraAndShockwave",
+    "name": "The Banana Fairy's Gift",
+    "hint_region": "Outerisles",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Shockwave",
+    "requirement_count": 1,
+    "moves": [
+      "mini"
+    ]
+  },
+  {
+    "id": "RarewareBanana",
+    "name": "Returning the Banana Fairies",
+    "hint_region": "Outerisles",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "mini"
+    ]
+  },
+  {
+    "id": "IslesLankyInstrumentPad",
+    "name": "Isles Lanky Japes Instrument",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "trombone"
+    ]
+  },
+  {
+    "id": "IslesTinyAztecLobby",
+    "name": "Isles Tiny Aztec Lobby Barrel",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "charge",
+      "climbing",
+      "twirl",
+      "vines"
+    ]
+  },
+  {
+    "id": "IslesDonkeyCagedBanana",
+    "name": "Isles Donkey Coconut Cage",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "coconut"
+    ]
+  },
+  {
+    "id": "IslesDiddySnidesLobby",
+    "name": "Isles Diddy Snides Spring Barrel",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "spring"
+    ]
+  },
+  {
+    "id": "IslesBattleArena1",
+    "name": "Isles Battle Arena 1 (Snide's Room: Under Rock)",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "IslesDonkeyInstrumentPad",
+    "name": "Isles Donkey Bongos Pad",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "bongos",
+      "grab"
+    ]
+  },
+  {
+    "id": "IslesKasplatFactoryLobby",
+    "name": "Isles Kasplat: Factory Lobby Box",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "punch"
+    ]
+  },
+  {
+    "id": "IslesBananaFairyFactoryLobby",
+    "name": "Isles Fairy (Factory Lobby)",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 2,
+    "moves": [
+      "camera",
+      "punch"
+    ]
+  },
+  {
+    "id": "IslesTinyGalleonLobby",
+    "name": "Isles Tiny Galleon Lobby Swim",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "diving",
+      "mini",
+      "slam",
+      "twirl"
+    ]
+  },
+  {
+    "id": "IslesKasplatGalleonLobby",
+    "name": "Isles Kasplat: Galleon Lobby",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "IslesDiddyCagedBanana",
+    "name": "Isles Diddy Peanut Cage",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "peanut",
+      "twirl"
+    ]
+  },
+  {
+    "id": "IslesDiddySummit",
+    "name": "Isles Diddy Summit Barrel",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "IslesBattleArena2",
+    "name": "Isles Battle Arena 2 (Fungi Lobby: Gorilla Gone Box)",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 1,
+    "moves": [
+      "gone"
+    ]
+  },
+  {
+    "id": "IslesBananaFairyForestLobby",
+    "name": "Isles Fairy (Fungi Lobby)",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "IslesDonkeyLavaBanana",
+    "name": "Isles Donkey Caves Lava",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "climbing",
+      "punch",
+      "strong"
+    ]
+  },
+  {
+    "id": "IslesDiddyInstrumentPad",
+    "name": "Isles Diddy Guitar Pad",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "climbing",
+      "guitar",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "IslesKasplatCavesLobby",
+    "name": "Isles Kasplat: Caves Lobby Punch",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "punch"
+    ]
+  },
+  {
+    "id": "IslesLankyCastleLobby",
+    "name": "Isles Lanky Castle Lobby Barrel",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "barrels",
+      "twirl"
+    ]
+  },
+  {
+    "id": "IslesKasplatCastleLobby",
+    "name": "Isles Kasplat: Castle Lobby",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "coconut"
+    ]
+  },
+  {
+    "id": "IslesChunkyHelmLobby",
+    "name": "Isles Chunky Helm Lobby Barrel",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "twirl",
+      "vines"
+    ]
+  },
+  {
+    "id": "IslesKasplatHelmLobby",
+    "name": "Isles Kasplat: Helm Lobby",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 3,
+    "moves": [
+      "coconut",
+      "scope",
+      "twirl"
+    ]
+  },
+  {
+    "id": "JapesDonkeyMedal",
+    "name": "Japes Donkey Medal",
+    "hint_region": "Japescbs",
+    "level": "Jungle Japes",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesDiddyMedal",
+    "name": "Japes Diddy Medal",
+    "hint_region": "Japescbs",
+    "level": "Jungle Japes",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesLankyMedal",
+    "name": "Japes Lanky Medal",
+    "hint_region": "Japescbs",
+    "level": "Jungle Japes",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesTinyMedal",
+    "name": "Japes Tiny Medal",
+    "hint_region": "Japescbs",
+    "level": "Jungle Japes",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesChunkyMedal",
+    "name": "Japes Chunky Medal",
+    "hint_region": "Japescbs",
+    "level": "Jungle Japes",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "DiddyKong",
+    "name": "Japes Cage: Diddy Kong",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Donkey",
+    "type": "Kong",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "JapesDonkeyFrontofCage",
+    "name": "Japes in Front of Diddy Cage",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "JapesDonkeyFreeDiddy",
+    "name": "Japes Free Diddy Item",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "JapesDonkeyCagedBanana",
+    "name": "Japes Donkey Floor Cage Banana",
+    "hint_region": "Lowlands",
+    "level": "Jungle Japes",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesDonkeyBaboonBlast",
+    "name": "Japes Donkey Baboon Blast",
+    "hint_region": "Lowlands",
+    "level": "Jungle Japes",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "blast",
+      "climbing",
+      "vines"
+    ]
+  },
+  {
+    "id": "JapesDiddyCagedBanana",
+    "name": "Japes Diddy Timed Cage Banana",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "JapesDiddyMountain",
+    "name": "Japes Diddy Top of Mountain",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "peanut"
+    ]
+  },
+  {
+    "id": "JapesLankyCagedBanana",
+    "name": "Japes Lanky Timed Cage Banana",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "orangstand"
+    ]
+  },
+  {
+    "id": "JapesTinyCagedBanana",
+    "name": "Japes Tiny Timed Cage Banana",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesChunkyBoulder",
+    "name": "Japes Chunky Boulder",
+    "hint_region": "Lowlands",
+    "level": "Jungle Japes",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "JapesChunkyCagedBanana",
+    "name": "Japes Chunky Timed Cage Banana",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "JapesBattleArena",
+    "name": "Japes Battle Arena (Near Funky)",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "JapesDiddyTunnel",
+    "name": "Japes Diddy Peanut Tunnel",
+    "hint_region": "Lowlands",
+    "level": "Jungle Japes",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesLankyGrapeGate",
+    "name": "Japes Lanky Grape Gate Barrel",
+    "hint_region": "Lowlands",
+    "level": "Jungle Japes",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "grape"
+    ]
+  },
+  {
+    "id": "JapesTinyFeatherGateBarrel",
+    "name": "Japes Tiny Feather Gate Barrel",
+    "hint_region": "Lowlands",
+    "level": "Jungle Japes",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "feather"
+    ]
+  },
+  {
+    "id": "JapesKasplatLeftTunnelNear",
+    "name": "Japes Kasplat: Hive Tunnel Lower",
+    "hint_region": "Hivetunnel",
+    "level": "Jungle Japes",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesKasplatLeftTunnelFar",
+    "name": "Japes Kasplat: Hive Tunnel Upper",
+    "hint_region": "Hivetunnel",
+    "level": "Jungle Japes",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesTinyStump",
+    "name": "Japes Tiny Stump",
+    "hint_region": "Hivetunnel",
+    "level": "Jungle Japes",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "mini"
+    ]
+  },
+  {
+    "id": "JapesChunkyGiantBonusBarrel",
+    "name": "Japes Chunky Giant Bonus Barrel",
+    "hint_region": "Hivetunnel",
+    "level": "Jungle Japes",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "hunky"
+    ]
+  },
+  {
+    "id": "JapesTinyBeehive",
+    "name": "Japes Tiny Beehive",
+    "hint_region": "Hivetunnel",
+    "level": "Jungle Japes",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 5,
+    "moves": [
+      "hunky",
+      "mini",
+      "oranges",
+      "saxophone",
+      "slam"
+    ]
+  },
+  {
+    "id": "JapesLankySlope",
+    "name": "Japes Lanky Slope Barrel",
+    "hint_region": "Stormytunnel",
+    "level": "Jungle Japes",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "orangstand"
+    ]
+  },
+  {
+    "id": "JapesKasplatNearPaintingRoom",
+    "name": "Japes Kasplat: Near Painting Room",
+    "hint_region": "Stormytunnel",
+    "level": "Jungle Japes",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesKasplatNearLab",
+    "name": "Japes Kasplat: By Lanky Slope Bonus",
+    "hint_region": "Stormytunnel",
+    "level": "Jungle Japes",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "JapesBananaFairyRambiCave",
+    "name": "Japes Fairy (Rambi Door Pool)",
+    "hint_region": "Stormytunnel",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "JapesLankyFairyCave",
+    "name": "Japes Lanky Painting Room Zingers",
+    "hint_region": "Cavesandmines",
+    "level": "Jungle Japes",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 6,
+    "moves": [
+      "climbing",
+      "grape",
+      "orangstand",
+      "slam",
+      "trombone",
+      "twirl"
+    ]
+  },
+  {
+    "id": "JapesBananaFairyLankyCave",
+    "name": "Japes Fairy (Painting Room)",
+    "hint_region": "Cavesandmines",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 7,
+    "moves": [
+      "camera",
+      "climbing",
+      "grape",
+      "orangstand",
+      "slam",
+      "trombone",
+      "twirl"
+    ]
+  },
+  {
+    "id": "JapesDiddyMinecarts",
+    "name": "Japes Diddy Minecart",
+    "hint_region": "Cavesandmines",
+    "level": "Jungle Japes",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "charge",
+      "climbing",
+      "peanut",
+      "slam"
+    ]
+  },
+  {
+    "id": "JapesChunkyUnderground",
+    "name": "Japes Chunky Underground",
+    "hint_region": "Cavesandmines",
+    "level": "Jungle Japes",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 5,
+    "moves": [
+      "barrels",
+      "pineapple",
+      "slam",
+      "twirl",
+      "vines"
+    ]
+  },
+  {
+    "id": "JapesKasplatUnderground",
+    "name": "Japes Kasplat: Underground",
+    "hint_region": "Cavesandmines",
+    "level": "Jungle Japes",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 4,
+    "moves": [
+      "barrels",
+      "pineapple",
+      "slam",
+      "vines"
+    ]
+  },
+  {
+    "id": "JapesKey",
+    "name": "Japes Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecDonkeyMedal",
+    "name": "Aztec Donkey Medal",
+    "hint_region": "Azteccbs",
+    "level": "Angry Aztec",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecDiddyMedal",
+    "name": "Aztec Diddy Medal",
+    "hint_region": "Azteccbs",
+    "level": "Angry Aztec",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecLankyMedal",
+    "name": "Aztec Lanky Medal",
+    "hint_region": "Azteccbs",
+    "level": "Angry Aztec",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecTinyMedal",
+    "name": "Aztec Tiny Medal",
+    "hint_region": "Azteccbs",
+    "level": "Angry Aztec",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecChunkyMedal",
+    "name": "Aztec Chunky Medal",
+    "hint_region": "Azteccbs",
+    "level": "Angry Aztec",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecDonkeyFreeLlama",
+    "name": "Aztec Donkey Free Llama Blast",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecChunkyVases",
+    "name": "Aztec Chunky Vases",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "AztecKasplatSandyBridge",
+    "name": "Aztec Kasplat: Behind DK Stone Door",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "strong"
+    ]
+  },
+  {
+    "id": "AztecKasplatOnTinyTemple",
+    "name": "Aztec Kasplat: On Tiny Temple",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "AztecTinyKlaptrapRoom",
+    "name": "Aztec Tiny Klaptrap Room",
+    "hint_region": "Tinytemple",
+    "level": "Angry Aztec",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 6,
+    "moves": [
+      "diving",
+      "feather",
+      "grape",
+      "mini",
+      "peanut",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "AztecChunkyKlaptrapRoom",
+    "name": "Aztec Chunky Klaptrap Room",
+    "hint_region": "Tinytemple",
+    "level": "Angry Aztec",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 5,
+    "moves": [
+      "feather",
+      "grape",
+      "peanut",
+      "pineapple",
+      "triangle"
+    ]
+  },
+  {
+    "id": "TinyKong",
+    "name": "Aztec Cage: Tiny Kong",
+    "hint_region": "Tinytemple",
+    "level": "Angry Aztec",
+    "kong": "Diddy",
+    "type": "Kong",
+    "requirement_count": 5,
+    "moves": [
+      "diving",
+      "feather",
+      "grape",
+      "peanut",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "AztecDiddyFreeTiny",
+    "name": "Aztec Free Tiny Item",
+    "hint_region": "Tinytemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "Banana",
+    "requirement_count": 5,
+    "moves": [
+      "diving",
+      "feather",
+      "grape",
+      "peanut",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "AztecLankyVulture",
+    "name": "Aztec Lanky Vulture Shooting",
+    "hint_region": "Tinytemple",
+    "level": "Angry Aztec",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 6,
+    "moves": [
+      "diving",
+      "feather",
+      "grape",
+      "peanut",
+      "pineapple",
+      "slam"
+    ]
+  },
+  {
+    "id": "AztecBattleArena",
+    "name": "Aztec Battle Arena (Tiny Temple: Vulture Room)",
+    "hint_region": "Tinytemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 6,
+    "moves": [
+      "diving",
+      "feather",
+      "grape",
+      "peanut",
+      "pineapple",
+      "slam"
+    ]
+  },
+  {
+    "id": "AztecDonkeyQuicksandCave",
+    "name": "Aztec Donkey Sealed Quicksand Tunnel Barrel",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "strong"
+    ]
+  },
+  {
+    "id": "AztecDiddyRamGongs",
+    "name": "Aztec Diddy Ram Gongs",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "charge",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "AztecDiddyVultureRace",
+    "name": "Aztec Diddy Vulture Race",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "AztecChunkyCagedBarrel",
+    "name": "Aztec Chunky Giant Caged Barrel",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "hunky"
+    ]
+  },
+  {
+    "id": "AztecKasplatNearLab",
+    "name": "Aztec Kasplat: Hunky Chunky Barrel",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecDonkey5DoorTemple",
+    "name": "Aztec Donkey 5 Door Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "coconut"
+    ]
+  },
+  {
+    "id": "AztecDiddy5DoorTemple",
+    "name": "Aztec Diddy 5 Door Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "charge",
+      "peanut"
+    ]
+  },
+  {
+    "id": "AztecLanky5DoorTemple",
+    "name": "Aztec Lanky 5 Door Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "grape"
+    ]
+  },
+  {
+    "id": "AztecTiny5DoorTemple",
+    "name": "Aztec Tiny 5 Door Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "feather"
+    ]
+  },
+  {
+    "id": "AztecBananaFairyTinyTemple",
+    "name": "Aztec Fairy (Tiny 5-Door Temple)",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 3,
+    "moves": [
+      "camera",
+      "feather",
+      "mini"
+    ]
+  },
+  {
+    "id": "AztecChunky5DoorTemple",
+    "name": "Aztec Chunky 5 Door Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "hunky",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "AztecKasplatChunky5DT",
+    "name": "Aztec Kasplat: Chunky 5-Door Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 2,
+    "moves": [
+      "hunky",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "AztecTinyBeetleRace",
+    "name": "Aztec Tiny Beetle Race",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "charge",
+      "mini",
+      "rocketbarrel",
+      "saxophone"
+    ]
+  },
+  {
+    "id": "LankyKong",
+    "name": "Aztec Cage: Lanky Kong",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Donkey",
+    "type": "Kong",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecDonkeyFreeLanky",
+    "name": "Aztec Free Lanky Item",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "AztecLankyLlamaTempleBarrel",
+    "name": "Aztec Lanky Llama Temple Barrel",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "orangstand",
+      "trombone"
+    ]
+  },
+  {
+    "id": "AztecLankyMatchingGame",
+    "name": "Aztec Lanky Matching Game",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "grape",
+      "slam"
+    ]
+  },
+  {
+    "id": "AztecBananaFairyLlamaTemple",
+    "name": "Aztec Fairy (Llama Temple)",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "AztecTinyLlamaTemple",
+    "name": "Aztec Tiny Llama Temple Lava Pedestals",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "mini",
+      "slam"
+    ]
+  },
+  {
+    "id": "AztecKasplatLlamaTemple",
+    "name": "Aztec Kasplat: Llama Temple Lava",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "mini"
+    ]
+  },
+  {
+    "id": "AztecKey",
+    "name": "Aztec Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryDonkeyMedal",
+    "name": "Factory Donkey Medal",
+    "hint_region": "Factorycbs",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryDiddyMedal",
+    "name": "Factory Diddy Medal",
+    "hint_region": "Factorycbs",
+    "level": "Frantic Factory",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryLankyMedal",
+    "name": "Factory Lanky Medal",
+    "hint_region": "Factorycbs",
+    "level": "Frantic Factory",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryTinyMedal",
+    "name": "Factory Tiny Medal",
+    "hint_region": "Factorycbs",
+    "level": "Frantic Factory",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryChunkyMedal",
+    "name": "Factory Chunky Medal",
+    "hint_region": "Factorycbs",
+    "level": "Frantic Factory",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryDonkeyNumberGame",
+    "name": "Factory Donkey Number Game",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "slam"
+    ]
+  },
+  {
+    "id": "FactoryDiddyBlockTower",
+    "name": "Factory Diddy Block Tower",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "spring"
+    ]
+  },
+  {
+    "id": "FactoryLankyTestingRoomBarrel",
+    "name": "Factory Lanky Testing Room Barrel",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "balloon",
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryTinyDartboard",
+    "name": "Factory Tiny Dartboard",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryKasplatBlocks",
+    "name": "Factory Kasplat: Block Tower",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryBananaFairybyCounting",
+    "name": "Factory Fairy (Number Game)",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 2,
+    "moves": [
+      "camera",
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryBananaFairybyFunky",
+    "name": "Factory Fairy (Near Funky's)",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 2,
+    "moves": [
+      "camera",
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryDiddyRandD",
+    "name": "Factory Diddy Charge Enemies",
+    "hint_region": "Researchanddevelopment",
+    "level": "Frantic Factory",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "charge",
+      "climbing",
+      "guitar"
+    ]
+  },
+  {
+    "id": "FactoryLankyRandD",
+    "name": "Factory Lanky Piano Game",
+    "hint_region": "Researchanddevelopment",
+    "level": "Frantic Factory",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "climbing",
+      "slam",
+      "trombone"
+    ]
+  },
+  {
+    "id": "FactoryChunkyRandD",
+    "name": "Factory Chunky Toy Monster",
+    "hint_region": "Researchanddevelopment",
+    "level": "Frantic Factory",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "climbing",
+      "hunky",
+      "punch",
+      "triangle"
+    ]
+  },
+  {
+    "id": "FactoryKasplatRandD",
+    "name": "Factory Kasplat: R&D",
+    "hint_region": "Researchanddevelopment",
+    "level": "Frantic Factory",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryBattleArena",
+    "name": "Factory Battle Arena (Under R&D Grate)",
+    "hint_region": "Researchanddevelopment",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "grab"
+    ]
+  },
+  {
+    "id": "FactoryTinyCarRace",
+    "name": "Factory Tiny Car Race",
+    "hint_region": "Researchanddevelopment",
+    "level": "Frantic Factory",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryDiddyChunkyRoomBarrel",
+    "name": "Factory Diddy Storage Room Barrel",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "slam",
+      "twirl",
+      "vines"
+    ]
+  },
+  {
+    "id": "FactoryDonkeyPowerHut",
+    "name": "Factory Donkey Power Hut",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "coconut",
+      "twirl"
+    ]
+  },
+  {
+    "id": "ChunkyKong",
+    "name": "Factory Cage: Chunky Kong",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Lanky",
+    "type": "Kong",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "NintendoCoin",
+    "name": "DK Arcade Round 2",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "NintendoCoin",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "grab"
+    ]
+  },
+  {
+    "id": "FactoryDonkeyDKArcade",
+    "name": "Factory Donkey DK Arcade Round 1",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryLankyFreeChunky",
+    "name": "Factory Free Chunky Item",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryTinybyArcade",
+    "name": "Factory Tiny Mini by Arcade",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "mini"
+    ]
+  },
+  {
+    "id": "FactoryChunkyDarkRoom",
+    "name": "Factory Chunky Dark Room",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "punch",
+      "slam"
+    ]
+  },
+  {
+    "id": "FactoryChunkybyArcade",
+    "name": "Factory Chunky Barrel by Arcade",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "punch"
+    ]
+  },
+  {
+    "id": "FactoryKasplatProductionBottom",
+    "name": "Factory Kasplat: Base of Production",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryKasplatStorage",
+    "name": "Factory Kasplat: Pole to Arcade",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "FactoryDonkeyCrusherRoom",
+    "name": "Factory Donkey Crusher Room",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "strong"
+    ]
+  },
+  {
+    "id": "FactoryDiddyProductionRoom",
+    "name": "Factory Diddy Production Spring",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "spring"
+    ]
+  },
+  {
+    "id": "FactoryLankyProductionRoom",
+    "name": "Factory Lanky Production Handstand",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "orangstand"
+    ]
+  },
+  {
+    "id": "FactoryTinyProductionRoom",
+    "name": "Factory Tiny Production Twirl",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "twirl"
+    ]
+  },
+  {
+    "id": "FactoryChunkyProductionRoom",
+    "name": "Factory Chunky Production Timer",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryKasplatProductionTop",
+    "name": "Factory Kasplat: Upper Production Pipe",
+    "hint_region": "Productionroom",
+    "level": "Frantic Factory",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "FactoryKey",
+    "name": "Factory Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "GalleonDonkeyMedal",
+    "name": "Galleon Donkey Medal",
+    "hint_region": "Galleoncbs",
+    "level": "Gloomy Galleon",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonDiddyMedal",
+    "name": "Galleon Diddy Medal",
+    "hint_region": "Galleoncbs",
+    "level": "Gloomy Galleon",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonLankyMedal",
+    "name": "Galleon Lanky Medal",
+    "hint_region": "Galleoncbs",
+    "level": "Gloomy Galleon",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonTinyMedal",
+    "name": "Galleon Tiny Medal",
+    "hint_region": "Galleoncbs",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonChunkyMedal",
+    "name": "Galleon Chunky Medal",
+    "hint_region": "Galleoncbs",
+    "level": "Gloomy Galleon",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonChunkyChest",
+    "name": "Galleon Chunky Chest",
+    "hint_region": "Galleoncaverns",
+    "level": "Gloomy Galleon",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "punch"
+    ]
+  },
+  {
+    "id": "GalleonKasplatNearLab",
+    "name": "Galleon Kasplat: Past Vines",
+    "hint_region": "Galleoncaverns",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "vines"
+    ]
+  },
+  {
+    "id": "GalleonBattleArena",
+    "name": "Galleon Battle Arena (Under Cranky)",
+    "hint_region": "Galleoncaverns",
+    "level": "Gloomy Galleon",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 1,
+    "moves": [
+      "punch"
+    ]
+  },
+  {
+    "id": "GalleonBananaFairybyCranky",
+    "name": "Galleon Fairy (In Punch Chest)",
+    "hint_region": "Galleoncaverns",
+    "level": "Gloomy Galleon",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 2,
+    "moves": [
+      "camera",
+      "punch"
+    ]
+  },
+  {
+    "id": "GalleonChunkyCannonGame",
+    "name": "Galleon Chunky Cannon Game",
+    "hint_region": "Galleoncaverns",
+    "level": "Gloomy Galleon",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "GalleonKasplatCannons",
+    "name": "Galleon Kasplat: Cannon Game Room",
+    "hint_region": "Galleoncaverns",
+    "level": "Gloomy Galleon",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonDiddyShipSwitch",
+    "name": "Galleon Diddy Top of Lighthouse",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "rocketbarrel",
+      "slam"
+    ]
+  },
+  {
+    "id": "GalleonLankyEnguardeChest",
+    "name": "Galleon Lanky Enguarde Chest",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonKasplatLighthouseArea",
+    "name": "Galleon Kasplat: Lighthouse Alcove",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonDonkeyLighthouse",
+    "name": "Galleon Donkey Lighthouse",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "slam"
+    ]
+  },
+  {
+    "id": "GalleonTinyPearls",
+    "name": "Galleon Tiny Mermaid Reward",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonChunkySeasick",
+    "name": "Galleon Chunky Seasick",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "punch",
+      "slam"
+    ]
+  },
+  {
+    "id": "GalleonDonkeyFreetheSeal",
+    "name": "Galleon Donkey Free the Seal",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonKasplatNearSub",
+    "name": "Galleon Kasplat: Musical Cactus",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonDonkeySealRace",
+    "name": "Galleon Donkey Seal Race",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "GalleonDiddyGoldTower",
+    "name": "Galleon Diddy Gold Tower Barrel",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "diving",
+      "spring"
+    ]
+  },
+  {
+    "id": "GalleonLankyGoldTower",
+    "name": "Galleon Lanky Gold Tower Barrel",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "balloon",
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonKasplatGoldTower",
+    "name": "Galleon Kasplat: Diddy Gold Tower",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "diving",
+      "spring"
+    ]
+  },
+  {
+    "id": "GalleonTinySubmarine",
+    "name": "Galleon Tiny Submarine Barrel",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonDiddyMechafish",
+    "name": "Galleon Diddy Mechfish",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonLanky2DoorShip",
+    "name": "Galleon Lanky 2 Door Ship",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonTiny2DoorShip",
+    "name": "Galleon Tiny 2 Door Ship",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonDonkey5DoorShip",
+    "name": "Galleon Donkey 5 Door Ship",
+    "hint_region": "Fivedoorship",
+    "level": "Gloomy Galleon",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonDiddy5DoorShip",
+    "name": "Galleon Diddy 5 Door Ship",
+    "hint_region": "Fivedoorship",
+    "level": "Gloomy Galleon",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonLanky5DoorShip",
+    "name": "Galleon Lanky 5 Door Ship",
+    "hint_region": "Fivedoorship",
+    "level": "Gloomy Galleon",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonTiny5DoorShip",
+    "name": "Galleon Tiny 5 Door Ship",
+    "hint_region": "Fivedoorship",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonBananaFairy5DoorShip",
+    "name": "Galleon Fairy (In Tiny's 5-Door Ship)",
+    "hint_region": "Fivedoorship",
+    "level": "Gloomy Galleon",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 2,
+    "moves": [
+      "camera",
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonChunky5DoorShip",
+    "name": "Galleon Chunky 5 Door Ship",
+    "hint_region": "Fivedoorship",
+    "level": "Gloomy Galleon",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "diving"
+    ]
+  },
+  {
+    "id": "GalleonPearl0",
+    "name": "Treasure Chest Far Left Clam",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Pearl",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonPearl1",
+    "name": "Treasure Chest Center Clam",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Pearl",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonPearl2",
+    "name": "Treasure Chest Far Right Clam",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Pearl",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonPearl3",
+    "name": "Treasure Chest Close Right Clam",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Pearl",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonPearl4",
+    "name": "Treasure Chest Close Left Clam",
+    "hint_region": "Treasureroom",
+    "level": "Gloomy Galleon",
+    "kong": "Tiny",
+    "type": "Pearl",
+    "requirement_count": 2,
+    "moves": [
+      "diving",
+      "mini"
+    ]
+  },
+  {
+    "id": "GalleonKey",
+    "name": "Galleon Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Gloomy Galleon",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 1,
+    "moves": [
+      "vines"
+    ]
+  },
+  {
+    "id": "ForestDonkeyMedal",
+    "name": "Forest Donkey Medal",
+    "hint_region": "Forestcbs",
+    "level": "Fungi Forest",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestDiddyMedal",
+    "name": "Forest Diddy Medal",
+    "hint_region": "Forestcbs",
+    "level": "Fungi Forest",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestLankyMedal",
+    "name": "Forest Lanky Medal",
+    "hint_region": "Forestcbs",
+    "level": "Fungi Forest",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestTinyMedal",
+    "name": "Forest Tiny Medal",
+    "hint_region": "Forestcbs",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestChunkyMedal",
+    "name": "Forest Chunky Medal",
+    "hint_region": "Forestcbs",
+    "level": "Fungi Forest",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestChunkyMinecarts",
+    "name": "Forest Chunky Minecart",
+    "hint_region": "Forestcenterandbeanstalk",
+    "level": "Fungi Forest",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "slam"
+    ]
+  },
+  {
+    "id": "ForestDiddyTopofMushroom",
+    "name": "Forest Diddy Top of Mushroom Barrel",
+    "hint_region": "Mushroomexterior",
+    "level": "Fungi Forest",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "ForestTinyMushroomBarrel",
+    "name": "Forest Tiny Mushroom Barrel",
+    "hint_region": "Mushroominterior",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "climbing",
+      "rocketbarrel",
+      "slam",
+      "twirl"
+    ]
+  },
+  {
+    "id": "ForestDonkeyBaboonBlast",
+    "name": "Forest Donkey Baboon Blast",
+    "hint_region": "Mushroomexterior",
+    "level": "Fungi Forest",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "blast",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "ForestKasplatLowerMushroomExterior",
+    "name": "Forest Kasplat: Low Mushroom Exterior",
+    "hint_region": "Mushroomexterior",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 3,
+    "moves": [
+      "climbing",
+      "rocketbarrel",
+      "twirl"
+    ]
+  },
+  {
+    "id": "ForestDonkeyMushroomCannons",
+    "name": "Forest Donkey Mushroom Cannons",
+    "hint_region": "Mushroominterior",
+    "level": "Fungi Forest",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestKasplatInsideMushroom",
+    "name": "Forest Kasplat: Inside Giant Mushroom",
+    "hint_region": "Mushroominterior",
+    "level": "Fungi Forest",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "ForestKasplatUpperMushroomExterior",
+    "name": "Forest Kasplat: Mushroom Night Door",
+    "hint_region": "Mushroomexterior",
+    "level": "Fungi Forest",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "ForestBattleArena",
+    "name": "Forest Battle Arena (Giant Mushroom High Ladder Platform)",
+    "hint_region": "Mushroomexterior",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 2,
+    "moves": [
+      "rocketbarrel",
+      "twirl"
+    ]
+  },
+  {
+    "id": "ForestChunkyFacePuzzle",
+    "name": "Forest Chunky Face Puzzle",
+    "hint_region": "Mushroominterior",
+    "level": "Fungi Forest",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "pineapple",
+      "rocketbarrel",
+      "slam"
+    ]
+  },
+  {
+    "id": "ForestLankyZingers",
+    "name": "Forest Lanky Zinger Bounce",
+    "hint_region": "Mushroominterior",
+    "level": "Fungi Forest",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "ForestLankyColoredMushrooms",
+    "name": "Forest Lanky Colored Mushroom Slam",
+    "hint_region": "Mushroominterior",
+    "level": "Fungi Forest",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "rocketbarrel",
+      "slam"
+    ]
+  },
+  {
+    "id": "ForestDiddyOwlRace",
+    "name": "Forest Diddy Owl Race",
+    "hint_region": "Owltree",
+    "level": "Fungi Forest",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "guitar",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "ForestLankyRabbitRace",
+    "name": "Forest Lanky Rabbit Race",
+    "hint_region": "Owltree",
+    "level": "Fungi Forest",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestKasplatOwlTree",
+    "name": "Forest Kasplat: Under Owl Tree",
+    "hint_region": "Owltree",
+    "level": "Fungi Forest",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestTinyAnthill",
+    "name": "Forest Tiny Anthill Banana",
+    "hint_region": "Owltree",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "oranges",
+      "saxophone"
+    ]
+  },
+  {
+    "id": "ForestDonkeyMill",
+    "name": "Forest Donkey Mill Levers",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestDiddyCagedBanana",
+    "name": "Forest Diddy Winch Cage",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "guitar"
+    ]
+  },
+  {
+    "id": "ForestTinySpiderBoss",
+    "name": "Forest Tiny Spider Boss",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "punch"
+    ]
+  },
+  {
+    "id": "ForestChunkyKegs",
+    "name": "Forest Chunky Keg Crushing",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "ForestDiddyRafters",
+    "name": "Forest Diddy Dark Rafters",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "guitar",
+      "spring"
+    ]
+  },
+  {
+    "id": "ForestBananaFairyRafters",
+    "name": "Forest Fairy (Dark Rafters)",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 3,
+    "moves": [
+      "camera",
+      "guitar",
+      "spring"
+    ]
+  },
+  {
+    "id": "ForestLankyAttic",
+    "name": "Forest Lanky Attic Shooting",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "balloon",
+      "grape",
+      "homing",
+      "slam"
+    ]
+  },
+  {
+    "id": "ForestKasplatNearBarn",
+    "name": "Forest Kasplat: Behind DK's Barn",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "ForestDonkeyBarn",
+    "name": "Forest Donkey Thornvine Barn Barrel",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "climbing",
+      "slam",
+      "vines"
+    ]
+  },
+  {
+    "id": "ForestBananaFairyThornvines",
+    "name": "Forest Fairy (Thornvine Barn)",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 3,
+    "moves": [
+      "camera",
+      "climbing",
+      "slam"
+    ]
+  },
+  {
+    "id": "ForestTinyBeanstalk",
+    "name": "Forest Tiny Top of the Beanstalk",
+    "hint_region": "Forestcenterandbeanstalk",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "mini",
+      "saxophone"
+    ]
+  },
+  {
+    "id": "ForestChunkyApple",
+    "name": "Forest Chunky Apple Rescue",
+    "hint_region": "Forestcenterandbeanstalk",
+    "level": "Fungi Forest",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "hunky"
+    ]
+  },
+  {
+    "id": "ForestBean",
+    "name": "Forest Second Anthill Reward",
+    "hint_region": "Owltree",
+    "level": "Fungi Forest",
+    "kong": "Tiny",
+    "type": "Bean",
+    "requirement_count": 2,
+    "moves": [
+      "oranges",
+      "saxophone"
+    ]
+  },
+  {
+    "id": "ForestKey",
+    "name": "Forest Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesDonkeyMedal",
+    "name": "Caves Donkey Medal",
+    "hint_region": "Cavescbs",
+    "level": "Crystal Caves",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesDiddyMedal",
+    "name": "Caves Diddy Medal",
+    "hint_region": "Cavescbs",
+    "level": "Crystal Caves",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesLankyMedal",
+    "name": "Caves Lanky Medal",
+    "hint_region": "Cavescbs",
+    "level": "Crystal Caves",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesTinyMedal",
+    "name": "Caves Tiny Medal",
+    "hint_region": "Cavescbs",
+    "level": "Crystal Caves",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesChunkyMedal",
+    "name": "Caves Chunky Medal",
+    "hint_region": "Cavescbs",
+    "level": "Crystal Caves",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesDonkeyBaboonBlast",
+    "name": "Caves Donkey Baboon Blast",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "blast"
+    ]
+  },
+  {
+    "id": "CavesDiddyJetpackBarrel",
+    "name": "Caves Diddy Jetpack Barrel",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "rocketbarrel",
+      "twirl"
+    ]
+  },
+  {
+    "id": "CavesTinyCaveBarrel",
+    "name": "Caves Tiny Mini Cave Barrel",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "mini"
+    ]
+  },
+  {
+    "id": "CavesTinyMonkeyportIgloo",
+    "name": "Caves Tiny Monkeyport Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesChunkyGorillaGone",
+    "name": "Caves Chunky Gorilla Gone",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "gone",
+      "punch"
+    ]
+  },
+  {
+    "id": "CavesKasplatNearLab",
+    "name": "Caves Kasplat: Near Ice Castle",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesKasplatNearFunky",
+    "name": "Caves Kasplat: Mini Room by Funky",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 2,
+    "moves": [
+      "mini",
+      "twirl"
+    ]
+  },
+  {
+    "id": "CavesKasplatPillar",
+    "name": "Caves Kasplat: On the Pillar",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "rocketbarrel",
+      "twirl"
+    ]
+  },
+  {
+    "id": "CavesKasplatNearCandy",
+    "name": "Caves Kasplat: By the Far Warp 2",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesLankyBeetleRace",
+    "name": "Caves Lanky Beetle Race",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "slam",
+      "sprint"
+    ]
+  },
+  {
+    "id": "CavesLankyCastle",
+    "name": "Caves Lanky Ice Castle Slam Challenge",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "slam"
+    ]
+  },
+  {
+    "id": "CavesChunkyTransparentIgloo",
+    "name": "Caves Chunky Transparent Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesKasplatOn5DI",
+    "name": "Caves Kasplat: On 5-Door Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CavesDonkey5DoorIgloo",
+    "name": "Caves Donkey 5 Door Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "bongos",
+      "rocketbarrel",
+      "strong"
+    ]
+  },
+  {
+    "id": "CavesDiddy5DoorIgloo",
+    "name": "Caves Diddy 5 Door Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "barrels",
+      "guitar",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "CavesLanky5DoorIgloo",
+    "name": "Caves Lanky 5 Door Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "rocketbarrel",
+      "trombone"
+    ]
+  },
+  {
+    "id": "CavesTiny5DoorIgloo",
+    "name": "Caves Tiny 5 Door Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "rocketbarrel",
+      "saxophone",
+      "slam"
+    ]
+  },
+  {
+    "id": "CavesBananaFairyIgloo",
+    "name": "Caves Fairy (Tiny Igloo)",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 4,
+    "moves": [
+      "camera",
+      "rocketbarrel",
+      "saxophone",
+      "slam"
+    ]
+  },
+  {
+    "id": "CavesChunky5DoorIgloo",
+    "name": "Caves Chunky 5 Door Igloo",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "rocketbarrel",
+      "triangle"
+    ]
+  },
+  {
+    "id": "CavesDonkeyRotatingCabin",
+    "name": "Caves Donkey Rotating Cabin",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "bongos",
+      "slam"
+    ]
+  },
+  {
+    "id": "CavesBattleArena",
+    "name": "Caves Battle Arena (Rotating Room: Left Portion)",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 2,
+    "moves": [
+      "bongos",
+      "slam"
+    ]
+  },
+  {
+    "id": "CavesDonkey5DoorCabin",
+    "name": "Caves Donkey 5 Door Cabin",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "bongos",
+      "homing"
+    ]
+  },
+  {
+    "id": "CavesDiddy5DoorCabinLower",
+    "name": "Caves Diddy 5 Door Cabin Lower",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "guitar",
+      "oranges",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "CavesDiddy5DoorCabinUpper",
+    "name": "Caves Diddy 5 Door Cabin Upper",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "guitar",
+      "oranges",
+      "rocketbarrel",
+      "spring"
+    ]
+  },
+  {
+    "id": "CavesBananaFairyCabin",
+    "name": "Caves Fairy (Diddy Candles Cabin)",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 5,
+    "moves": [
+      "camera",
+      "guitar",
+      "oranges",
+      "rocketbarrel",
+      "spring"
+    ]
+  },
+  {
+    "id": "CavesLanky1DoorCabin",
+    "name": "Caves Lanky Sprint Cabin",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "sprint",
+      "trombone"
+    ]
+  },
+  {
+    "id": "CavesTiny5DoorCabin",
+    "name": "Caves Tiny 5 Door Cabin",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "oranges",
+      "saxophone"
+    ]
+  },
+  {
+    "id": "CavesChunky5DoorCabin",
+    "name": "Caves Chunky 5 Door Cabin",
+    "hint_region": "Cabins",
+    "level": "Crystal Caves",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "gone",
+      "slam",
+      "triangle"
+    ]
+  },
+  {
+    "id": "CavesKey",
+    "name": "Caves Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 1,
+    "moves": [
+      "punch"
+    ]
+  },
+  {
+    "id": "CastleDonkeyMedal",
+    "name": "Castle Donkey Medal",
+    "hint_region": "Castlecbs",
+    "level": "Creepy Castle",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleDiddyMedal",
+    "name": "Castle Diddy Medal",
+    "hint_region": "Castlecbs",
+    "level": "Creepy Castle",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleLankyMedal",
+    "name": "Castle Lanky Medal",
+    "hint_region": "Castlecbs",
+    "level": "Creepy Castle",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleTinyMedal",
+    "name": "Castle Tiny Medal",
+    "hint_region": "Castlecbs",
+    "level": "Creepy Castle",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleChunkyMedal",
+    "name": "Castle Chunky Medal",
+    "hint_region": "Castlecbs",
+    "level": "Creepy Castle",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleDiddyAboveCastle",
+    "name": "Castle Diddy Above Castle",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "CastleKasplatHalfway",
+    "name": "Castle Kasplat: Near Upper Warp 2",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Lanky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleKasplatLowerLedge",
+    "name": "Castle Kasplat: On a lone platform",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Tiny",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleDonkeyTree",
+    "name": "Castle Donkey Tree Sniping",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "coconut",
+      "scope"
+    ]
+  },
+  {
+    "id": "CastleChunkyTree",
+    "name": "Castle Chunky Tree Sniping Barrel",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "pineapple",
+      "punch",
+      "scope"
+    ]
+  },
+  {
+    "id": "CastleKasplatTree",
+    "name": "Castle Kasplat: Inside the Tree",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Donkey",
+    "type": "Blueprint",
+    "requirement_count": 1,
+    "moves": [
+      "coconut"
+    ]
+  },
+  {
+    "id": "CastleBananaFairyTree",
+    "name": "Castle Fairy (Tree Sniper Room)",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 3,
+    "moves": [
+      "camera",
+      "coconut",
+      "diving"
+    ]
+  },
+  {
+    "id": "CastleDonkeyLibrary",
+    "name": "Castle Donkey Library",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "slam",
+      "strong"
+    ]
+  },
+  {
+    "id": "CastleDiddyBallroom",
+    "name": "Castle Diddy Ballroom",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "CastleBananaFairyBallroom",
+    "name": "Castle Fairy (Near Car Race)",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 2,
+    "moves": [
+      "camera",
+      "monkeyport"
+    ]
+  },
+  {
+    "id": "CastleTinyCarRace",
+    "name": "Castle Tiny Car Race",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "mini",
+      "monkeyport"
+    ]
+  },
+  {
+    "id": "CastleLankyTower",
+    "name": "Castle Lanky Tower",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "balloon",
+      "grape",
+      "homing",
+      "scope"
+    ]
+  },
+  {
+    "id": "CastleLankyGreenhouse",
+    "name": "Castle Lanky Greenhouse",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleBattleArena",
+    "name": "Castle Battle Arena (Greenhouse: Center)",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleTinyTrashCan",
+    "name": "Castle Tiny Trash Can",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "feather",
+      "homing",
+      "mini",
+      "saxophone"
+    ]
+  },
+  {
+    "id": "CastleChunkyShed",
+    "name": "Castle Chunky Shed",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "gone",
+      "pineapple",
+      "punch",
+      "triangle"
+    ]
+  },
+  {
+    "id": "CastleChunkyMuseum",
+    "name": "Castle Chunky Museum",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "punch"
+    ]
+  },
+  {
+    "id": "CastleKasplatCrypt",
+    "name": "Castle Kasplat: Lower Cave Center",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Diddy",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleDiddyCrypt",
+    "name": "Castle Diddy Crypt",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "charge",
+      "coconut",
+      "peanut",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "CastleChunkyCrypt",
+    "name": "Castle Chunky Crypt",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Chunky",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "coconut",
+      "peanut",
+      "pineapple",
+      "punch"
+    ]
+  },
+  {
+    "id": "CastleDonkeyMinecarts",
+    "name": "Castle Donkey Minecart",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "coconut",
+      "grab",
+      "peanut",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "CastleLankyMausoleum",
+    "name": "Castle Lanky Mausoleum",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 5,
+    "moves": [
+      "feather",
+      "grape",
+      "sprint",
+      "trombone",
+      "vines"
+    ]
+  },
+  {
+    "id": "CastleTinyMausoleum",
+    "name": "Castle Tiny Mausoleum",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "feather",
+      "grape",
+      "slam",
+      "twirl"
+    ]
+  },
+  {
+    "id": "CastleTinyOverChasm",
+    "name": "Castle Tiny Over Chasm",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Tiny",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "twirl"
+    ]
+  },
+  {
+    "id": "CastleKasplatNearCandy",
+    "name": "Castle Kasplat: Near Candy's",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Chunky",
+    "type": "Blueprint",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "CastleDonkeyDungeon",
+    "name": "Castle Donkey Dungeon",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Donkey",
+    "type": "Banana",
+    "requirement_count": 1,
+    "moves": [
+      "slam"
+    ]
+  },
+  {
+    "id": "CastleDiddyDungeon",
+    "name": "Castle Diddy Dungeon",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Diddy",
+    "type": "Banana",
+    "requirement_count": 4,
+    "moves": [
+      "peanut",
+      "scope",
+      "slam",
+      "vines"
+    ]
+  },
+  {
+    "id": "CastleLankyDungeon",
+    "name": "Castle Lanky Dungeon",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Lanky",
+    "type": "Banana",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "slam",
+      "trombone"
+    ]
+  },
+  {
+    "id": "CastleKey",
+    "name": "Castle Boss Defeated",
+    "hint_region": "Bosses",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmDonkey1",
+    "name": "Helm Donkey Barrel 1",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Donkey",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmDonkey2",
+    "name": "Helm Donkey Barrel 2",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Donkey",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmDiddy1",
+    "name": "Helm Diddy Barrel 1",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Diddy",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmDiddy2",
+    "name": "Helm Diddy Barrel 2",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Diddy",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmLanky1",
+    "name": "Helm Lanky Barrel 1",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Lanky",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmLanky2",
+    "name": "Helm Lanky Barrel 2",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Lanky",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmTiny1",
+    "name": "Helm Tiny Barrel 1",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Tiny",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmTiny2",
+    "name": "Helm Tiny Barrel 2",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Tiny",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmChunky1",
+    "name": "Helm Chunky Barrel 1",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Chunky",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmChunky2",
+    "name": "Helm Chunky Barrel 2",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Chunky",
+    "type": "Constant",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HelmBattleArena",
+    "name": "Helm Battle Arena (Top of Blast-o-Matic)",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Any",
+    "type": "Crown",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "HelmDonkeyMedal",
+    "name": "Helm Donkey Medal",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Donkey",
+    "type": "Medal",
+    "requirement_count": 1,
+    "moves": [
+      "bongos"
+    ]
+  },
+  {
+    "id": "HelmChunkyMedal",
+    "name": "Helm Chunky Medal",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Chunky",
+    "type": "Medal",
+    "requirement_count": 1,
+    "moves": [
+      "triangle"
+    ]
+  },
+  {
+    "id": "HelmTinyMedal",
+    "name": "Helm Tiny Medal",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Tiny",
+    "type": "Medal",
+    "requirement_count": 1,
+    "moves": [
+      "saxophone"
+    ]
+  },
+  {
+    "id": "HelmLankyMedal",
+    "name": "Helm Lanky Medal",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Lanky",
+    "type": "Medal",
+    "requirement_count": 1,
+    "moves": [
+      "trombone"
+    ]
+  },
+  {
+    "id": "HelmDiddyMedal",
+    "name": "Helm Diddy Medal",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Diddy",
+    "type": "Medal",
+    "requirement_count": 2,
+    "moves": [
+      "guitar",
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "HelmBananaFairy1",
+    "name": "Helm Fairy (Key 8 Room (1))",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "HelmBananaFairy2",
+    "name": "Helm Fairy (Key 8 Room (2))",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Any",
+    "type": "Fairy",
+    "requirement_count": 1,
+    "moves": [
+      "camera"
+    ]
+  },
+  {
+    "id": "HelmKey",
+    "name": "The End of Helm",
+    "hint_region": "Helm",
+    "level": "Hideout Helm",
+    "kong": "Any",
+    "type": "Key",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RarewareCoin",
+    "name": "Jetpac",
+    "hint_region": "Jetpac",
+    "level": "Shops",
+    "kong": "Any",
+    "type": "RarewareCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location00",
+    "name": "Japes Dirt: Painting Hill",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 3,
+    "moves": [
+      "climbing",
+      "orangstand",
+      "twirl"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location01",
+    "name": "Aztec Dirt: Chunky Temple",
+    "hint_region": "Fivedoortemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 2,
+    "moves": [
+      "hunky",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location02",
+    "name": "Factory Dirt: Dark Room",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 1,
+    "moves": [
+      "punch"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location03",
+    "name": "Isles Dirt: Cabin Isle",
+    "hint_region": "Outerisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location04",
+    "name": "Isles Dirt: Under Caves Lobby",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location05",
+    "name": "Isles Dirt: Aztec Roof",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "vines"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location06",
+    "name": "Aztec Dirt: Oasis",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location07",
+    "name": "Forest Dirt: Mills Grass",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location08",
+    "name": "Forest Dirt: Beanstalk",
+    "hint_region": "Forestcenterandbeanstalk",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location09",
+    "name": "Galleon Dirt: Lighthouse",
+    "hint_region": "Lighthouse",
+    "level": "Gloomy Galleon",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "slam"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location10",
+    "name": "Caves Dirt: Giant Kosha",
+    "hint_region": "Igloo",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 1,
+    "moves": [
+      "monkeyport"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location11",
+    "name": "Castle Dirt: Top Floor",
+    "hint_region": "Castlesurroundings",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location12",
+    "name": "Isles Dirt: Back of Prison",
+    "hint_region": "Kremisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location13",
+    "name": "Isles Dirt: Training Grounds Rear Tunnel",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "RainbowCoin_Location14",
+    "name": "Isles Dirt: Banana Hoard",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 2,
+    "moves": [
+      "climbing",
+      "vines"
+    ]
+  },
+  {
+    "id": "RainbowCoin_Location15",
+    "name": "Isles Dirt: Castle Lobby",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "RainbowCoin",
+    "requirement_count": 3,
+    "moves": [
+      "balloon",
+      "barrels",
+      "twirl"
+    ]
+  },
+  {
+    "id": "MelonCrate_Location00",
+    "name": "Japes Crate: Behind the Mountain",
+    "hint_region": "Hillside",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "MelonCrate_Location01",
+    "name": "Japes Crate: In the Rambi Cave",
+    "hint_region": "Stormytunnel",
+    "level": "Jungle Japes",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location02",
+    "name": "Aztec Crate: Llama Temple Entrance",
+    "hint_region": "Llamatemple",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location03",
+    "name": "Factory Crate: Near Funky",
+    "hint_region": "Testing",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 1,
+    "moves": [
+      "climbing"
+    ]
+  },
+  {
+    "id": "MelonCrate_Location04",
+    "name": "Factory Crate: Near Candy",
+    "hint_region": "Storage",
+    "level": "Frantic Factory",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location05",
+    "name": "Galleon Crate: Near Cactus",
+    "hint_region": "Shipyardoutskirts",
+    "level": "Gloomy Galleon",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location06",
+    "name": "Aztec Crate: On Llama Temple",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 1,
+    "moves": [
+      "rocketbarrel"
+    ]
+  },
+  {
+    "id": "MelonCrate_Location07",
+    "name": "Aztec Crate: Near Gong Tower",
+    "hint_region": "Oasisandtotem",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location08",
+    "name": "Forest Crate: Near Owl Tree",
+    "hint_region": "Owltree",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location09",
+    "name": "Forest Crate: Near Thornvine Barn",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location10",
+    "name": "Forest Crate: Behind Dark Attic",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location11",
+    "name": "Forest Crate: In Thornvine Barn",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "MelonCrate_Location12",
+    "name": "Castle Crate: Behind Mausoleum Entrance",
+    "hint_region": "Castleunderground",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "CrateItem",
+    "requirement_count": 0,
+    "moves": []
+  },
+  {
+    "id": "HoldableBoulderIslesNearAztec",
+    "name": "Isles Boulder: Near Level 2",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 3,
+    "moves": [
+      "barrels",
+      "climbing",
+      "vines"
+    ]
+  },
+  {
+    "id": "HoldableBoulderIslesNearCaves",
+    "name": "Isles Boulder: Near Level 6",
+    "hint_region": "Mainisles",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 3,
+    "moves": [
+      "barrels",
+      "climbing",
+      "vines"
+    ]
+  },
+  {
+    "id": "HoldableBoulderAztec",
+    "name": "Aztec Boulder: Tunnel",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "hunky"
+    ]
+  },
+  {
+    "id": "HoldableBoulderCavesSmall",
+    "name": "Caves Boulder: Small",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "HoldableBoulderCavesLarge",
+    "name": "Caves Boulder: Large",
+    "hint_region": "Maincaves",
+    "level": "Crystal Caves",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 3,
+    "moves": [
+      "barrels",
+      "hunky",
+      "punch"
+    ]
+  },
+  {
+    "id": "HoldableBoulderMuseum",
+    "name": "Castle Boulder: Museum",
+    "hint_region": "Castlerooms",
+    "level": "Creepy Castle",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "punch"
+    ]
+  },
+  {
+    "id": "HoldableBoulderJapesLobby",
+    "name": "Isles Boulder: Japes Lobby",
+    "hint_region": "Earlylobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "HoldableBoulderCastleLobby",
+    "name": "Isles Boulder: Castle Lobby",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "HoldableBoulderCavesLobby",
+    "name": "Isles Boulder: Caves Lobby",
+    "hint_region": "Latelobbies",
+    "level": "DK Isles",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 3,
+    "moves": [
+      "barrels",
+      "climbing",
+      "punch"
+    ]
+  },
+  {
+    "id": "HoldableKegMillFrontNear",
+    "name": "Forest Keg: Mill Front Near",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "HoldableKegMillFrontFar",
+    "name": "Forest Keg: Mill Front Far",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 1,
+    "moves": [
+      "barrels"
+    ]
+  },
+  {
+    "id": "HoldableKegMillRear",
+    "name": "Forest Keg: Mill Back",
+    "hint_region": "Mills",
+    "level": "Fungi Forest",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "punch"
+    ]
+  },
+  {
+    "id": "HoldableVaseCircle",
+    "name": "Aztec Vase: Circle",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "HoldableVaseColon",
+    "name": "Aztec Vase: Colon",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "HoldableVaseTriangle",
+    "name": "Aztec Vase: Triangle",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "pineapple"
+    ]
+  },
+  {
+    "id": "HoldableVasePlus",
+    "name": "Aztec Vase: Plus",
+    "hint_region": "Aztectunnels",
+    "level": "Angry Aztec",
+    "kong": "Any",
+    "type": "BoulderItem",
+    "requirement_count": 2,
+    "moves": [
+      "barrels",
+      "pineapple"
+    ]
+  }
+]
