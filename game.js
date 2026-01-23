@@ -266,6 +266,7 @@ class DonkdleGame {
 
         if (!locationName) {
             this.showMessage('Please enter a location name', 'error');
+            this.shakeInput();
             return;
         }
 
@@ -276,12 +277,14 @@ class DonkdleGame {
 
         if (!guessedLocation) {
             this.showMessage('Location not found. Please select from the list.', 'error');
+            this.shakeInput();
             return;
         }
 
         // Check if already guessed
         if (this.guesses.some(g => g.location.id === guessedLocation.id)) {
             this.showMessage('You already guessed this location!', 'error');
+            this.shakeInput();
             return;
         }
 
@@ -299,12 +302,12 @@ class DonkdleGame {
             this.gameOver = true;
         }
 
-        // Save state and render
+        // Save state and render with animation
         this.saveGameState();
-        this.renderBoard();
+        this.renderBoard(true); // Pass true to animate the new guess
 
         if (this.gameOver) {
-            setTimeout(() => this.showGameOver(), 500);
+            setTimeout(() => this.showGameOver(), 2500); // Increased delay for animation
         } else {
             this.showMessage(`${this.guesses.length} ${this.guesses.length === 1 ? 'guess' : 'guesses'} made. Keep trying!`, 'info');
         }
@@ -395,13 +398,14 @@ class DonkdleGame {
         };
     }
 
-    renderBoard() {
+    renderBoard(animateNew = false) {
         const board = document.getElementById('gameBoard');
         board.innerHTML = '';
 
         // Render existing guesses
-        this.guesses.forEach(guess => {
-            board.appendChild(this.createGuessRow(guess));
+        this.guesses.forEach((guess, index) => {
+            const isNewGuess = animateNew && index === this.guesses.length - 1;
+            board.appendChild(this.createGuessRow(guess, isNewGuess));
         });
 
         // Render one empty row if game is not over
@@ -416,7 +420,7 @@ class DonkdleGame {
         }
     }
 
-    createGuessRow(guess) {
+    createGuessRow(guess, animate = false) {
         const wrapper = document.createElement('div');
         wrapper.className = 'guess-row';
 
@@ -432,7 +436,7 @@ class DonkdleGame {
 
         // Region cell
         const regionCell = document.createElement('div');
-        regionCell.className = `guess-cell ${guess.feedback.region.status}`;
+        regionCell.className = `guess-cell ${animate ? '' : guess.feedback.region.status}`;
         regionCell.innerHTML = `
             <div class="cell-label">REGION</div>
             <div class="cell-value">${guess.feedback.region.value}</div>
@@ -441,7 +445,7 @@ class DonkdleGame {
 
         // Kong cell
         const kongCell = document.createElement('div');
-        kongCell.className = `guess-cell ${guess.feedback.kong.status}`;
+        kongCell.className = `guess-cell ${animate ? '' : guess.feedback.kong.status}`;
         kongCell.innerHTML = `
             <div class="cell-label">KONG</div>
             <div class="cell-value">${guess.feedback.kong.value}</div>
@@ -450,7 +454,7 @@ class DonkdleGame {
 
         // Requirement cell
         const reqCell = document.createElement('div');
-        reqCell.className = `guess-cell ${guess.feedback.requirement.status}`;
+        reqCell.className = `guess-cell ${animate ? '' : guess.feedback.requirement.status}`;
         reqCell.innerHTML = `
             <div class="cell-label">REQS</div>
             <div class="cell-value">
@@ -468,7 +472,7 @@ class DonkdleGame {
             guess.feedback.moves = { status: 'absent', feedback: { common: [], missing: [], extra: [] } };
         }
         
-        movesCell.className = `guess-cell ${guess.feedback.moves.status}`;
+        movesCell.className = `guess-cell ${animate ? '' : guess.feedback.moves.status}`;
         
         let movesDisplay = '';
         const f = guess.feedback.moves.feedback;
@@ -499,6 +503,28 @@ class DonkdleGame {
         row.appendChild(movesCell);
 
         wrapper.appendChild(row);
+
+        // Apply flip animation to cells if this is a new guess
+        if (animate) {
+            const cells = [regionCell, kongCell, reqCell, movesCell];
+            const statuses = [
+                guess.feedback.region.status,
+                guess.feedback.kong.status,
+                guess.feedback.requirement.status,
+                guess.feedback.moves.status
+            ];
+
+            cells.forEach((cell, index) => {
+                setTimeout(() => {
+                    cell.classList.add('flip');
+                    // Add the status class mid-flip
+                    setTimeout(() => {
+                        cell.classList.add(statuses[index]);
+                    }, 300); // Half of the flip animation duration
+                }, index * 150); // Stagger each cell by 150ms
+            });
+        }
+
         return wrapper;
     }
 
@@ -525,6 +551,14 @@ class DonkdleGame {
             message.textContent = '';
             message.className = 'message';
         }, 3000);
+    }
+
+    shakeInput() {
+        const inputSection = document.querySelector('.input-section');
+        inputSection.classList.add('shake');
+        setTimeout(() => {
+            inputSection.classList.remove('shake');
+        }, 500);
     }
 
     showModal(modalId) {
