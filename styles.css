@@ -16,11 +16,17 @@
     --absent: #3a3a3c;
     --modal-bg: #1a1a1b;
     --input-bg: #2a2a2c;
+    --donk-green: #048243;
+    --donk-dark-green: #003d03;
 }
 
 body {
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
-    background-color: var(--bg-color);
+    background: linear-gradient(0deg, var(--donk-dark-green) 0%, var(--donk-dark-green) 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bgfinal.webp');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: 45%;
     color: var(--text-color);
     min-height: 100vh;
     display: flex;
@@ -39,6 +45,13 @@ header {
     text-align: center;
     margin-bottom: 30px;
     position: relative;
+}
+
+.logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -441,6 +454,7 @@ h1 {
     max-height: 80vh;
     overflow-y: auto;
     position: relative;
+    line-height: 1.6;
 }
 
 .close {
@@ -459,29 +473,34 @@ h1 {
 
 .modal-content h2 {
     margin-bottom: 20px;
+    line-height: 1.3;
 }
 
 .modal-content h3 {
     margin-top: 20px;
     margin-bottom: 10px;
+    line-height: 1.4;
 }
 
 .help-section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .help-section p {
-    margin: 5px 0;
+    margin: 12px 0;
     display: flex;
     align-items: center;
+    line-height: 1.8;
+    min-height: 28px;
 }
 
 .color-box {
     display: inline-block;
-    width: 30px;
-    height: 20px;
+    width: 50px;
+    height: 24px;
     border-radius: 3px;
-    margin-right: 10px;
+    margin-right: 12px;
+    flex-shrink: 0;
 }
 
 .color-box.green {
