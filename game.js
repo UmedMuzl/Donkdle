@@ -29,6 +29,15 @@ class DonkdleGame {
         return params.get('mode') || 'daily';
     }
 
+    getCSTDate() {
+        // Get current date in CST (UTC-6)
+        const now = new Date();
+        const cstOffset = -6 * 60; // CST is UTC-6
+        const utcTime = now.getTime() + (now.getTimezoneOffset() * 60000);
+        const cstTime = new Date(utcTime + (cstOffset * 60000));
+        return cstTime;
+    }
+
     formatRegionName(regionName) {
         // Format region names to be more readable
         const regionMap = {
@@ -120,15 +129,15 @@ class DonkdleGame {
             this.targetLocation = this.locations[index];
             console.log('Random location selected:', this.targetLocation.name);
         } else {
-            // Daily mode: use today's date as seed for consistent daily puzzle
-            const today = new Date();
+            // Daily mode: use today's date in CST as seed for consistent daily puzzle
+            const today = this.getCSTDate();
             const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
             
             // Simple seeded random
             const index = this.seededRandom(seed) % this.locations.length;
             this.targetLocation = this.locations[index];
             
-            console.log('Today\'s location selected:', this.targetLocation.name);
+            console.log('Today\'s location selected (CST):', this.targetLocation.name);
         }
     }
 
@@ -152,9 +161,22 @@ class DonkdleGame {
         input.addEventListener('input', (e) => this.handleInput(e.target.value));
         input.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
+                e.preventDefault();
+                const autocompleteList = document.getElementById('autocompleteList');
+                const selectedItem = autocompleteList.querySelector('.selected');
+                
+                // If there's a selected item in autocomplete, use it
+                if (selectedItem && autocompleteList.classList.contains('active')) {
+                    input.value = selectedItem.dataset.name;
+                    autocompleteList.classList.remove('active');
+                }
+                
                 this.makeGuess();
             } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
                 this.navigateAutocomplete(e);
+            } else if (e.key === 'Escape') {
+                // Close autocomplete on Escape
+                document.getElementById('autocompleteList').classList.remove('active');
             }
         });
 
@@ -693,7 +715,8 @@ class DonkdleGame {
     }
 
     generateShareText() {
-        const date = new Date().toLocaleDateString();
+        const cstDate = this.getCSTDate();
+        const date = cstDate.toLocaleDateString('en-US', { timeZone: 'America/Chicago' });
         const emoji = this.gameWon ? '🎉' : '😢';
         const tries = this.gameWon ? `${this.guesses.length}/∞` : 'X/∞';
         
@@ -759,7 +782,7 @@ class DonkdleGame {
             // Don't save random game state
             return null;
         }
-        const today = new Date();
+        const today = this.getCSTDate();
         return `donkdle_${today.getFullYear()}_${today.getMonth() + 1}_${today.getDate()}`;
     }
 
@@ -817,7 +840,7 @@ class DonkdleGame {
     updateStats() {
         const stats = JSON.parse(localStorage.getItem('donkdle_stats') || '{}');
         const lastPlayed = stats.lastPlayed || '';
-        const today = new Date().toDateString();
+        const today = this.getCSTDate().toDateString();
 
         // Initialize if needed
         if (!stats.played) {
@@ -834,7 +857,7 @@ class DonkdleGame {
                 stats.won++;
                 
                 // Update streak
-                const yesterday = new Date();
+                const yesterday = this.getCSTDate();
                 yesterday.setDate(yesterday.getDate() - 1);
                 if (lastPlayed === yesterday.toDateString()) {
                     stats.currentStreak++;

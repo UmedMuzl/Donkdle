@@ -278,7 +278,10 @@
     "type": "Banana",
     "requirement_count": 1,
     "moves": [
-      "peanut"
+      "peanut",
+      "rocketbarrel",
+      "barrels",
+      "trombone"
     ]
   },
   {
@@ -398,7 +401,8 @@
     "requirement_count": 2,
     "moves": [
       "gone",
-      "vines"
+      "vines",
+      "monkeyport"
     ]
   },
   {
@@ -411,7 +415,8 @@
     "requirement_count": 2,
     "moves": [
       "coconut",
-      "scope"
+      "scope",
+      "monkeyport"
     ]
   },
   {
@@ -592,7 +597,7 @@
     "type": "Banana",
     "requirement_count": 2,
     "moves": [
-      "coconut", "slam"
+      "coconut", "slam", "barrels"
     ]
   },
   {
@@ -1020,7 +1025,8 @@
     "requirement_count": 2,
     "moves": [
       "strong",
-      "slam"
+      "slam",
+      "blast"
     ]
   },
   {
@@ -1912,7 +1918,7 @@
   },
   {
     "id": "GalleonDonkeyFreetheSeal",
-    "name": "Galleon Donkey Free the Seal",
+    "name": "Galleon Donkey Seal Checks",
     "hint_region": "Shipyardoutskirts",
     "level": "Gloomy Galleon",
     "kong": "Donkey",
@@ -1929,16 +1935,6 @@
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
-  },
-  {
-    "id": "GalleonDonkeySealRace",
-    "name": "Galleon Donkey Seal Race",
-    "hint_region": "Shipyardoutskirts",
-    "level": "Gloomy Galleon",
-    "kong": "Donkey",
-    "type": "Banana",
-    "requirement_count": 0,
-    "moves": ["blast", "coconut"]
   },
   {
     "id": "GalleonDiddyGoldTower",
@@ -2118,59 +2114,7 @@
   },
   {
     "id": "GalleonPearl0",
-    "name": "Treasure Chest Far Left Clam",
-    "hint_region": "Treasureroom",
-    "level": "Gloomy Galleon",
-    "kong": "Tiny",
-    "type": "Pearl",
-    "requirement_count": 2,
-    "moves": [
-      "diving",
-      "mini"
-    ]
-  },
-  {
-    "id": "GalleonPearl1",
-    "name": "Treasure Chest Center Clam",
-    "hint_region": "Treasureroom",
-    "level": "Gloomy Galleon",
-    "kong": "Tiny",
-    "type": "Pearl",
-    "requirement_count": 2,
-    "moves": [
-      "diving",
-      "mini"
-    ]
-  },
-  {
-    "id": "GalleonPearl2",
-    "name": "Treasure Chest Far Right Clam",
-    "hint_region": "Treasureroom",
-    "level": "Gloomy Galleon",
-    "kong": "Tiny",
-    "type": "Pearl",
-    "requirement_count": 2,
-    "moves": [
-      "diving",
-      "mini"
-    ]
-  },
-  {
-    "id": "GalleonPearl3",
-    "name": "Treasure Chest Close Right Clam",
-    "hint_region": "Treasureroom",
-    "level": "Gloomy Galleon",
-    "kong": "Tiny",
-    "type": "Pearl",
-    "requirement_count": 2,
-    "moves": [
-      "diving",
-      "mini"
-    ]
-  },
-  {
-    "id": "GalleonPearl4",
-    "name": "Treasure Chest Close Left Clam",
+    "name": "Treasure Chest Clams",
     "hint_region": "Treasureroom",
     "level": "Gloomy Galleon",
     "kong": "Tiny",
@@ -2421,7 +2365,7 @@
   },
   {
     "id": "ForestTinyAnthill",
-    "name": "Forest Tiny Anthill Banana",
+    "name": "Forest Tiny Anthill",
     "hint_region": "Owltree",
     "level": "Fungi Forest",
     "kong": "Tiny",
@@ -2591,20 +2535,6 @@
     "moves": [
       "barrels",
       "hunky"
-    ]
-  },
-  {
-    "id": "ForestBean",
-    "name": "Forest Second Anthill Reward",
-    "hint_region": "Owltree",
-    "level": "Fungi Forest",
-    "kong": "Tiny",
-    "type": "Bean",
-    "requirement_count": 2,
-    "moves": [
-      "mini",
-      "saxophone",
-      "grape"
     ]
   },
   {
@@ -3286,9 +3216,7 @@
     "type": "Banana",
     "requirement_count": 4,
     "moves": [
-      "gone",
-      "punch",
-      "triangle"
+      "punch"
     ]
   },
   {
@@ -3465,7 +3393,8 @@
     "type": "Crown",
     "requirement_count": 1,
     "moves": [
-      "rocketbarrel"
+      "rocketbarrel",
+      "monkeyport"
     ]
   },
   {
@@ -3477,7 +3406,8 @@
     "type": "Medal",
     "requirement_count": 1,
     "moves": [
-      "bongos"
+      "bongos",
+      "monkeyport"
     ]
   },
   {
@@ -3489,7 +3419,8 @@
     "type": "Medal",
     "requirement_count": 1,
     "moves": [
-      "triangle"
+      "triangle",
+      "monkeyport"
     ]
   },
   {
@@ -3501,7 +3432,8 @@
     "type": "Medal",
     "requirement_count": 1,
     "moves": [
-      "saxophone"
+      "saxophone",
+      "monkeyport"
     ]
   },
   {
@@ -3513,7 +3445,8 @@
     "type": "Medal",
     "requirement_count": 1,
     "moves": [
-      "trombone"
+      "trombone",
+      "monkeyport"
     ]
   },
   {
