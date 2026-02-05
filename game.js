@@ -361,15 +361,17 @@ class DonkdleGame {
 
     highlightMatch(text, search) {
         const searchTerms = search.toLowerCase().split(' ').filter(t => t.length > 0);
-        let result = text;
         
-        // Highlight each search term
-        for (const term of searchTerms) {
-            const regex = new RegExp(`(${term})`, 'gi');
-            result = result.replace(regex, '<strong>$1</strong>');
-        }
+        // Escape special regex characters and create a single pattern for all terms
+        const escapedTerms = searchTerms.map(term => 
+            term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+        );
         
-        return result;
+        // Create regex that matches any of the terms
+        const pattern = escapedTerms.join('|');
+        const regex = new RegExp(`(${pattern})`, 'gi');
+        
+        return text.replace(regex, '<strong>$1</strong>');
     }
 
     navigateAutocomplete(e) {
