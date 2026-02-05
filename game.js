@@ -45,12 +45,9 @@ class DonkdleGame {
     }
 
     getCSTDate() {
-        // Get current date in CST (UTC-6)
-        const now = new Date();
-        const cstOffset = -6 * 60; // CST is UTC-6
-        const utcTime = now.getTime() + (now.getTimezoneOffset() * 60000);
-        const cstTime = new Date(utcTime + (cstOffset * 60000));
-        return cstTime;
+        // Get the current time in Chicago (handles CST/CDT automatically)
+        const chicagoTimeStr = new Date().toLocaleString("en-US", { timeZone: "America/Chicago" });
+        return new Date(chicagoTimeStr);
     }
 
     formatRegionName(regionName) {
@@ -811,7 +808,7 @@ class DonkdleGame {
         if (this.mode === 'daily') {
             // Use CST time for daily mode
             const cstDate = this.getCSTDate();
-            date = cstDate.toLocaleDateString('en-US', { timeZone: 'America/Chicago' });
+            date = cstDate.toLocaleDateString();
         } else {
             // Use local time for random mode
             const localDate = new Date();
