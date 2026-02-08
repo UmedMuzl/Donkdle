@@ -3613,20 +3613,7 @@
   },
   {
     "id": "HelmBananaFairy1",
-    "name": "Helm Fairy (Key 8 Room (1))",
-    "hint_region": "Helm",
-    "level": "Hideout Helm",
-    "kong": "Any",
-    "type": "Fairy",
-    "requirement_count": 1,
-    "moves": [
-      "camera",
-      "monkeyport"
-    ]
-  },
-  {
-    "id": "HelmBananaFairy2",
-    "name": "Helm Fairy (Key 8 Room (2))",
+    "name": "Helm Fairy (Key 8 Room)",
     "hint_region": "Helm",
     "level": "Hideout Helm",
     "kong": "Any",
@@ -4121,7 +4108,7 @@
   },
   {
     "id": "HoldableKegMillFrontNear",
-    "name": "Forest Keg: Mill Front Near",
+    "name": "Forest Kegs",
     "hint_region": "Mills",
     "level": "Fungi Forest",
     "kong": "Chunky",
@@ -4129,75 +4116,11 @@
     "requirement_count": 1,
     "moves": [
       "barrels"
-    ]
-  },
-  {
-    "id": "HoldableKegMillFrontFar",
-    "name": "Forest Keg: Mill Front Far",
-    "hint_region": "Mills",
-    "level": "Fungi Forest",
-    "kong": "Chunky",
-    "type": "BoulderItem",
-    "requirement_count": 1,
-    "moves": [
-      "barrels"
-    ]
-  },
-  {
-    "id": "HoldableKegMillRear",
-    "name": "Forest Keg: Mill Back",
-    "hint_region": "Mills",
-    "level": "Fungi Forest",
-    "kong": "Chunky",
-    "type": "BoulderItem",
-    "requirement_count": 2,
-    "moves": [
-      "barrels",
-      "punch"
     ]
   },
   {
     "id": "HoldableVaseCircle",
-    "name": "Aztec Vase: Circle",
-    "hint_region": "Aztectunnels",
-    "level": "Angry Aztec",
-    "kong": "Chunky",
-    "type": "BoulderItem",
-    "requirement_count": 2,
-    "moves": [
-      "barrels",
-      "pineapple"
-    ]
-  },
-  {
-    "id": "HoldableVaseColon",
-    "name": "Aztec Vase: Colon",
-    "hint_region": "Aztectunnels",
-    "level": "Angry Aztec",
-    "kong": "Chunky",
-    "type": "BoulderItem",
-    "requirement_count": 2,
-    "moves": [
-      "barrels",
-      "pineapple"
-    ]
-  },
-  {
-    "id": "HoldableVaseTriangle",
-    "name": "Aztec Vase: Triangle",
-    "hint_region": "Aztectunnels",
-    "level": "Angry Aztec",
-    "kong": "Chunky",
-    "type": "BoulderItem",
-    "requirement_count": 2,
-    "moves": [
-      "barrels",
-      "pineapple"
-    ]
-  },
-  {
-    "id": "HoldableVasePlus",
-    "name": "Aztec Vase: Plus",
+    "name": "Aztec Holdable Vases",
     "hint_region": "Aztectunnels",
     "level": "Angry Aztec",
     "kong": "Chunky",
