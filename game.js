@@ -148,7 +148,8 @@ class DonkdleGame {
         } else {
             // Daily mode: use today's date in CST as seed for consistent daily puzzle
             const today = this.getCSTDate();
-            const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+            const versionOffset = this.version === '2' ? 100000 : 0;
+            const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate() + versionOffset;
             
             // Simple seeded random
             const index = this.seededRandom(seed) % this.locations.length;
@@ -872,13 +873,14 @@ class DonkdleGame {
         const maxGuessDisplay = this.maxGuesses === Infinity ? '∞' : this.maxGuesses;
         const tries = this.gameWon ? `${this.guesses.length}/${maxGuessDisplay}` : `X/${maxGuessDisplay}`;
         const modeTag = this.hardMode ? ' (Hard Mode)' : '';
+        const versionTag = this.version === '2' ? ' 2.0' : '';
         
-        let text = `Donkdle ${date} ${emoji}${modeTag}\n${tries}\n\n`;
+        let text = `Donkdle${versionTag} ${date} ${emoji}${modeTag}\n${tries}\n\n`;
         
         this.guesses.forEach(guess => {
             const f = guess.feedback;
             text += this.statusToEmoji(f.region.status);
-            text += this.statusToEmoji(f.kong.status);
+            text += this.statusToEmoji(f.type.status);
             text += this.statusToEmoji(f.requirement.status);
             text += this.statusToEmoji(f.moves.status);
             text += '\n';
@@ -938,7 +940,8 @@ class DonkdleGame {
             return null;
         }
         const today = this.getCSTDate();
-        return `donkdle_${today.getFullYear()}_${today.getMonth() + 1}_${today.getDate()}`;
+        const versionSuffix = this.version === '2' ? '_v2' : '';
+        return `donkdle_${today.getFullYear()}_${today.getMonth() + 1}_${today.getDate()}${versionSuffix}`;
     }
 
     saveGameState() {
