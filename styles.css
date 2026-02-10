@@ -461,7 +461,7 @@ h1 {
     font-style: italic;
 }
 
-.autocomplete-kong {
+.autocomplete-type {
     font-weight: 500;
 }
 
@@ -486,7 +486,7 @@ h1 {
 }
 
 .autocomplete-region.status-correct,
-.autocomplete-kong.status-correct,
+.autocomplete-type.status-correct,
 .autocomplete-req.status-correct {
     background-color: var(--correct);
     color: white;
@@ -496,7 +496,7 @@ h1 {
 }
 
 .autocomplete-region.status-present,
-.autocomplete-kong.status-present,
+.autocomplete-type.status-present,
 .autocomplete-req.status-present {
     background-color: var(--present);
     color: white;
@@ -506,7 +506,7 @@ h1 {
 }
 
 .autocomplete-region.status-absent,
-.autocomplete-kong.status-absent,
+.autocomplete-type.status-absent,
 .autocomplete-req.status-absent {
     background-color: var(--absent);
     color: white;

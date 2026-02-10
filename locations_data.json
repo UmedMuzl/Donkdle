@@ -29,10 +29,7 @@
     "kong": "Tiny",
     "type": "Banana",
     "requirement_count": 2,
-    "moves": [
-      "monkeyport",
-      "saxophone"
-    ]
+    "moves": ["monkeyport", "saxophone"]
   },
   {
     "id": "IslesLankyCagedBanana",
@@ -227,7 +224,7 @@
     "name": "Isles Kasplat: Factory Lobby Box",
     "hint_region": "Earlylobbies",
     "level": "DK Isles",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -267,7 +264,7 @@
     "name": "Isles Kasplat: Galleon Lobby",
     "hint_region": "Earlylobbies",
     "level": "DK Isles",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -362,7 +359,7 @@
     "name": "Isles Kasplat: Caves Lobby Punch",
     "hint_region": "Latelobbies",
     "level": "DK Isles",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -387,7 +384,7 @@
     "name": "Isles Kasplat: Castle Lobby",
     "hint_region": "Latelobbies",
     "level": "DK Isles",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -413,7 +410,7 @@
     "name": "Isles Kasplat: Helm Lobby",
     "hint_region": "Latelobbies",
     "level": "DK Isles",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 2,
     "moves": [
@@ -430,9 +427,7 @@
     "kong": "Donkey",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut"
-    ]
+    "moves": ["coconut"]
   },
   {
     "id": "JapesDiddyMedal",
@@ -442,9 +437,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "peanut"
-    ]
+    "moves": ["peanut"]
   },
   {
     "id": "JapesLankyMedal",
@@ -454,10 +447,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "grape",
-      "orangstand"
-    ]
+    "moves": ["grape", "orangstand"]
   },
   {
     "id": "JapesTinyMedal",
@@ -467,10 +457,7 @@
     "kong": "Tiny",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "feather",
-      "mini"
-    ]
+    "moves": ["feather", "mini"]
   },
   {
     "id": "JapesChunkyMedal",
@@ -480,10 +467,7 @@
     "kong": "Chunky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut",
-      "pineapple"
-    ]
+    "moves": ["coconut", "pineapple"]
   },
   {
     "id": "DiddyKong",
@@ -505,14 +489,15 @@
     "kong": "Any",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": []
+    "moves": [
+    ]
   },
   {
     "id": "JapesDonkeyFreeDiddy",
     "name": "Japes Free Diddy Item",
     "hint_region": "Hillside",
     "level": "Jungle Japes",
-    "kong": "Donkey",
+    "kong": "Any",
     "type": "Banana",
     "requirement_count": 1,
     "moves": [
@@ -527,10 +512,7 @@
     "kong": "Donkey",
     "type": "Banana",
     "requirement_count": 2,
-    "moves": [
-      "coconut",
-      "slam"
-    ]
+    "moves": ["coconut", "slam"]
   },
   {
     "id": "JapesDonkeyBaboonBlast",
@@ -592,10 +574,7 @@
     "kong": "Tiny",
     "type": "Banana",
     "requirement_count": 2,
-    "moves": [
-      "coconut",
-      "slam"
-    ]
+    "moves": ["coconut", "slam"]
   },
   {
     "id": "JapesChunkyBoulder",
@@ -618,9 +597,7 @@
     "type": "Banana",
     "requirement_count": 2,
     "moves": [
-      "coconut",
-      "slam",
-      "barrels"
+      "coconut", "slam", "barrels"
     ]
   },
   {
@@ -631,7 +608,8 @@
     "kong": "Any",
     "type": "Crown",
     "requirement_count": 0,
-    "moves": []
+    "moves": [
+    ]
   },
   {
     "id": "JapesDiddyTunnel",
@@ -641,9 +619,7 @@
     "kong": "Diddy",
     "type": "Banana",
     "requirement_count": 1,
-    "moves": [
-      "peanut"
-    ]
+    "moves": ["peanut"]
   },
   {
     "id": "JapesLankyGrapeGate",
@@ -654,8 +630,7 @@
     "type": "Banana",
     "requirement_count": 2,
     "moves": [
-      "grape",
-      "peanut"
+      "grape", "peanut"
     ]
   },
   {
@@ -667,8 +642,7 @@
     "type": "Banana",
     "requirement_count": 2,
     "moves": [
-      "feather",
-      "peanut"
+      "feather", "peanut"
     ]
   },
   {
@@ -676,7 +650,7 @@
     "name": "Japes Kasplat: Hive Tunnel Lower",
     "hint_region": "Hivetunnel",
     "level": "Jungle Japes",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -686,7 +660,7 @@
     "name": "Japes Kasplat: Hive Tunnel Upper",
     "hint_region": "Hivetunnel",
     "level": "Jungle Japes",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -700,8 +674,7 @@
     "type": "Banana",
     "requirement_count": 2,
     "moves": [
-      "mini",
-      "feather"
+      "mini", "feather"
     ]
   },
   {
@@ -713,8 +686,7 @@
     "type": "Banana",
     "requirement_count": 2,
     "moves": [
-      "hunky",
-      "feather"
+      "hunky", "feather"
     ]
   },
   {
@@ -749,7 +721,7 @@
     "name": "Japes Kasplat: Near Painting Room",
     "hint_region": "Stormytunnel",
     "level": "Jungle Japes",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -759,7 +731,7 @@
     "name": "Japes Kasplat: By Lanky Slope Bonus",
     "hint_region": "Stormytunnel",
     "level": "Jungle Japes",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -842,7 +814,7 @@
     "name": "Japes Kasplat: Underground",
     "hint_region": "Cavesandmines",
     "level": "Jungle Japes",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 4,
     "moves": [
@@ -860,9 +832,7 @@
     "kong": "Any",
     "type": "Key",
     "requirement_count": 1,
-    "moves": [
-      "barrels"
-    ]
+    "moves": ["barrels"]
   },
   {
     "id": "AztecDonkeyMedal",
@@ -872,9 +842,7 @@
     "kong": "Donkey",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut"
-    ]
+    "moves": ["coconut"]
   },
   {
     "id": "AztecDiddyMedal",
@@ -884,9 +852,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "peanut"
-    ]
+    "moves": ["peanut"]
   },
   {
     "id": "AztecLankyMedal",
@@ -896,9 +862,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "grape"
-    ]
+    "moves": ["grape"]
   },
   {
     "id": "AztecTinyMedal",
@@ -918,9 +882,7 @@
     "kong": "Chunky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "pineapple"
-    ]
+    "moves": ["pineapple"]
   },
   {
     "id": "AztecDonkeyFreeLlama",
@@ -930,9 +892,7 @@
     "kong": "Donkey",
     "type": "Banana",
     "requirement_count": 1,
-    "moves": [
-      "blast"
-    ]
+    "moves": ["blast"]
   },
   {
     "id": "AztecChunkyVases",
@@ -952,7 +912,7 @@
     "name": "Aztec Kasplat: Behind DK Stone Door",
     "hint_region": "Aztectunnels",
     "level": "Angry Aztec",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 2,
     "moves": [
@@ -965,7 +925,7 @@
     "name": "Aztec Kasplat: On Tiny Temple",
     "hint_region": "Oasisandtotem",
     "level": "Angry Aztec",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -1018,7 +978,7 @@
     "name": "Aztec Free Tiny Item",
     "hint_region": "Tinytemple",
     "level": "Angry Aztec",
-    "kong": "Diddy",
+    "kong": "Any",
     "type": "Banana",
     "requirement_count": 3,
     "moves": [
@@ -1112,7 +1072,7 @@
     "name": "Aztec Kasplat: Hunky Chunky Barrel",
     "hint_region": "Aztectunnels",
     "level": "Angry Aztec",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -1196,7 +1156,7 @@
     "name": "Aztec Kasplat: Chunky 5-Door Temple",
     "hint_region": "Fivedoortemple",
     "level": "Angry Aztec",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -1226,25 +1186,17 @@
     "kong": "Donkey",
     "type": "Kong",
     "requirement_count": 2,
-    "moves": [
-      "bongos",
-      "diving",
-      "blast"
-    ]
+    "moves": ["bongos", "diving", "blast"]
   },
   {
     "id": "AztecDonkeyFreeLanky",
     "name": "Aztec Free Lanky Item",
     "hint_region": "Llamatemple",
     "level": "Angry Aztec",
-    "kong": "Donkey",
+    "kong": "Any",
     "type": "Banana",
     "requirement_count": 2,
-    "moves": [
-      "bongos",
-      "diving",
-      "blast"
-    ]
+    "moves": ["bongos", "diving", "blast"]
   },
   {
     "id": "AztecLankyLlamaTempleBarrel",
@@ -1306,7 +1258,7 @@
     "name": "Aztec Kasplat: Llama Temple Lava",
     "hint_region": "Llamatemple",
     "level": "Angry Aztec",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -1322,9 +1274,7 @@
     "kong": "Any",
     "type": "Key",
     "requirement_count": 1,
-    "moves": [
-      "barrels"
-    ]
+    "moves": ["barrels"]
   },
   {
     "id": "FactoryDonkeyMedal",
@@ -1334,9 +1284,7 @@
     "kong": "Donkey",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut"
-    ]
+    "moves": ["coconut"]
   },
   {
     "id": "FactoryDiddyMedal",
@@ -1346,9 +1294,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "spring"
-    ]
+    "moves": ["spring"]
   },
   {
     "id": "FactoryLankyMedal",
@@ -1358,11 +1304,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut",
-      "grab",
-      "grape"
-    ]
+    "moves": ["coconut", "grab", "grape"]
   },
   {
     "id": "FactoryTinyMedal",
@@ -1372,9 +1314,7 @@
     "kong": "Tiny",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "feather"
-    ]
+    "moves": ["feather"]
   },
   {
     "id": "FactoryChunkyMedal",
@@ -1384,10 +1324,7 @@
     "kong": "Chunky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "pineapple",
-      "punch"
-    ]
+    "moves": ["pineapple", "punch"]
   },
   {
     "id": "FactoryDonkeyNumberGame",
@@ -1444,10 +1381,11 @@
     "name": "Factory Kasplat: Block Tower",
     "hint_region": "Testing",
     "level": "Frantic Factory",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 0,
-    "moves": []
+    "moves": [
+    ]
   },
   {
     "id": "FactoryBananaFairybyCounting",
@@ -1521,10 +1459,11 @@
     "name": "Factory Kasplat: R&D",
     "hint_region": "Researchanddevelopment",
     "level": "Frantic Factory",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 0,
-    "moves": []
+    "moves": [
+    ]
   },
   {
     "id": "FactoryBattleArena",
@@ -1584,10 +1523,7 @@
     "kong": "Lanky",
     "type": "Kong",
     "requirement_count": 2,
-    "moves": [
-      "slam",
-      "orangstand"
-    ]
+    "moves": ["slam", "orangstand"]
   },
   {
     "id": "NintendoCoin",
@@ -1595,7 +1531,7 @@
     "hint_region": "Storage",
     "level": "Frantic Factory",
     "kong": "Donkey",
-    "type": "NintendoCoin",
+    "type": "Misc",
     "requirement_count": 2,
     "moves": [
       "grab",
@@ -1619,13 +1555,10 @@
     "name": "Factory Free Chunky Item",
     "hint_region": "Storage",
     "level": "Frantic Factory",
-    "kong": "Lanky",
+    "kong": "Any",
     "type": "Banana",
     "requirement_count": 2,
-    "moves": [
-      "orangstand",
-      "slam"
-    ]
+    "moves": ["orangstand", "slam"]
   },
   {
     "id": "FactoryTinybyArcade",
@@ -1669,7 +1602,7 @@
     "name": "Factory Kasplat: Base of Production",
     "hint_region": "Productionroom",
     "level": "Frantic Factory",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -1679,7 +1612,7 @@
     "name": "Factory Kasplat: Pole to Arcade",
     "hint_region": "Storage",
     "level": "Frantic Factory",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -1762,7 +1695,7 @@
     "name": "Factory Kasplat: Upper Production Pipe",
     "hint_region": "Productionroom",
     "level": "Frantic Factory",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": [
@@ -1791,10 +1724,7 @@
     "kong": "Donkey",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut",
-      "slam"
-    ]
+    "moves": ["coconut", "slam"]
   },
   {
     "id": "GalleonDiddyMedal",
@@ -1804,10 +1734,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "diving",
-      "peanut"
-    ]
+    "moves": ["diving", "peanut"]
   },
   {
     "id": "GalleonLankyMedal",
@@ -1817,11 +1744,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut",
-      "diving",
-      "grape"
-    ]
+    "moves": ["coconut", "diving", "grape"]
   },
   {
     "id": "GalleonTinyMedal",
@@ -1831,12 +1754,7 @@
     "kong": "Tiny",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "coconut",
-      "diving",
-      "feather",
-      "saxophone"
-    ]
+    "moves": ["coconut", "diving", "feather", "saxophone"]
   },
   {
     "id": "GalleonChunkyMedal",
@@ -1846,10 +1764,7 @@
     "kong": "Chunky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "diving",
-      "pineapple"
-    ]
+    "moves": ["diving", "pineapple"]
   },
   {
     "id": "GalleonChunkyChest",
@@ -1868,7 +1783,7 @@
     "name": "Galleon Kasplat: Past Vines",
     "hint_region": "Galleoncaverns",
     "level": "Gloomy Galleon",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -1918,12 +1833,10 @@
     "name": "Galleon Kasplat: Cannon Game Room",
     "hint_region": "Galleoncaverns",
     "level": "Gloomy Galleon",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 0,
-    "moves": [
-      "pineapple"
-    ]
+    "moves": ["pineapple"]
   },
   {
     "id": "GalleonDiddyShipSwitch",
@@ -1957,12 +1870,10 @@
     "name": "Galleon Kasplat: Lighthouse Alcove",
     "hint_region": "Lighthouse",
     "level": "Gloomy Galleon",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 0,
-    "moves": [
-      "coconut"
-    ]
+    "moves": ["coconut"]
   },
   {
     "id": "GalleonDonkeyLighthouse",
@@ -2013,17 +1924,14 @@
     "kong": "Donkey",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": [
-      "blast",
-      "coconut"
-    ]
+    "moves": ["blast", "coconut"]
   },
   {
     "id": "GalleonKasplatNearSub",
     "name": "Galleon Kasplat: Musical Cactus",
     "hint_region": "Shipyardoutskirts",
     "level": "Gloomy Galleon",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -2059,7 +1967,7 @@
     "name": "Galleon Kasplat: Diddy Gold Tower",
     "hint_region": "Treasureroom",
     "level": "Gloomy Galleon",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 3,
     "moves": [
@@ -2210,7 +2118,7 @@
     "hint_region": "Treasureroom",
     "level": "Gloomy Galleon",
     "kong": "Tiny",
-    "type": "Pearl",
+    "type": "Misc",
     "requirement_count": 2,
     "moves": [
       "diving",
@@ -2235,9 +2143,7 @@
     "kong": "Donkey",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "blast"
-    ]
+    "moves": ["blast"]
   },
   {
     "id": "ForestDiddyMedal",
@@ -2247,9 +2153,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "grape"
-    ]
+    "moves": ["grape"]
   },
   {
     "id": "ForestLankyMedal",
@@ -2259,9 +2163,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "grape"
-    ]
+    "moves": ["grape"]
   },
   {
     "id": "ForestTinyMedal",
@@ -2271,9 +2173,7 @@
     "kong": "Tiny",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "feather"
-    ]
+    "moves": ["feather"]
   },
   {
     "id": "ForestChunkyMedal",
@@ -2338,7 +2238,7 @@
     "name": "Forest Kasplat: Low Mushroom Exterior",
     "hint_region": "Mushroomexterior",
     "level": "Fungi Forest",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 3,
     "moves": []
@@ -2365,7 +2265,7 @@
     "name": "Forest Kasplat: Inside Giant Mushroom",
     "hint_region": "Mushroominterior",
     "level": "Fungi Forest",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": []
@@ -2375,7 +2275,7 @@
     "name": "Forest Kasplat: Mushroom Night Door",
     "hint_region": "Mushroomexterior",
     "level": "Fungi Forest",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": []
@@ -2451,23 +2351,17 @@
     "kong": "Lanky",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": [
-      "trombone",
-      "sprint",
-      "grape"
-    ]
+    "moves": ["trombone", "sprint", "grape"]
   },
   {
     "id": "ForestKasplatOwlTree",
     "name": "Forest Kasplat: Under Owl Tree",
     "hint_region": "Owltree",
     "level": "Fungi Forest",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 0,
-    "moves": [
-      "grape"
-    ]
+    "moves": ["grape"]
   },
   {
     "id": "ForestTinyAnthill",
@@ -2491,10 +2385,7 @@
     "kong": "Donkey",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": [
-      "grab",
-      "slam"
-    ]
+    "moves": ["grab", "slam"]
   },
   {
     "id": "ForestDiddyCagedBanana",
@@ -2587,7 +2478,7 @@
     "name": "Forest Kasplat: Behind DK's Barn",
     "hint_region": "Mills",
     "level": "Fungi Forest",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -2654,10 +2545,7 @@
     "kong": "Any",
     "type": "Key",
     "requirement_count": 0,
-    "moves": [
-      "barrels",
-      "hunky"
-    ]
+    "moves": ["barrels", "hunky"]
   },
   {
     "id": "CavesDonkeyMedal",
@@ -2667,10 +2555,7 @@
     "kong": "Donkey",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "blast",
-      "bongos"
-    ]
+    "moves": ["blast", "bongos"]
   },
   {
     "id": "CavesDiddyMedal",
@@ -2680,10 +2565,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "peanut",
-      "rocketbarrel"
-    ]
+    "moves": ["peanut", "rocketbarrel"]
   },
   {
     "id": "CavesLankyMedal",
@@ -2693,10 +2575,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "balloon",
-      "rocketbarrel"
-    ]
+    "moves": ["balloon", "rocketbarrel"]
   },
   {
     "id": "CavesTinyMedal",
@@ -2706,11 +2585,7 @@
     "kong": "Tiny",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "feather",
-      "mini",
-      "saxophone"
-    ]
+    "moves": ["feather", "mini", "saxophone"]
   },
   {
     "id": "CavesChunkyMedal",
@@ -2720,10 +2595,7 @@
     "kong": "Chunky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "barrels",
-      "hunky"
-    ]
+    "moves": ["barrels", "hunky"]
   },
   {
     "id": "CavesDonkeyBaboonBlast",
@@ -2769,11 +2641,7 @@
     "kong": "Tiny",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": [
-      "mini",
-      "twirl",
-      "monkeyport"
-    ]
+    "moves": ["mini", "twirl", "monkeyport"]
   },
   {
     "id": "CavesChunkyGorillaGone",
@@ -2792,7 +2660,7 @@
     "name": "Caves Kasplat: Near Ice Castle",
     "hint_region": "Maincaves",
     "level": "Crystal Caves",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -2802,7 +2670,7 @@
     "name": "Caves Kasplat: Mini Room by Funky",
     "hint_region": "Maincaves",
     "level": "Crystal Caves",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 2,
     "moves": [
@@ -2815,7 +2683,7 @@
     "name": "Caves Kasplat: On the Pillar",
     "hint_region": "Maincaves",
     "level": "Crystal Caves",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 3,
     "moves": [
@@ -2827,7 +2695,7 @@
     "name": "Caves Kasplat: By the Far Warp 2",
     "hint_region": "Cabins",
     "level": "Crystal Caves",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -2866,17 +2734,14 @@
     "kong": "Chunky",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": [
-      "hunky",
-      "barrels"
-    ]
+    "moves": ["hunky", "barrels"]
   },
   {
     "id": "CavesKasplatOn5DI",
     "name": "Caves Kasplat: On 5-Door Igloo",
     "hint_region": "Igloo",
     "level": "Crystal Caves",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -3119,11 +2984,7 @@
     "kong": "Diddy",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "charge",
-      "slam",
-      "peanut"
-    ]
+    "moves": ["charge", "slam", "peanut"]
   },
   {
     "id": "CastleLankyMedal",
@@ -3133,9 +2994,7 @@
     "kong": "Lanky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "slam"
-    ]
+    "moves": ["slam"]
   },
   {
     "id": "CastleTinyMedal",
@@ -3155,10 +3014,7 @@
     "kong": "Chunky",
     "type": "Medal",
     "requirement_count": 0,
-    "moves": [
-      "pineapple",
-      "punch"
-    ]
+    "moves": ["pineapple", "punch"]
   },
   {
     "id": "CastleDiddyAboveCastle",
@@ -3177,7 +3033,7 @@
     "name": "Castle Kasplat: Near Upper Warp 2",
     "hint_region": "Castlesurroundings",
     "level": "Creepy Castle",
-    "kong": "Any",
+    "kong": "Lanky",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -3187,7 +3043,7 @@
     "name": "Castle Kasplat: On a lone platform",
     "hint_region": "Castlesurroundings",
     "level": "Creepy Castle",
-    "kong": "Any",
+    "kong": "Tiny",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -3226,7 +3082,7 @@
     "name": "Castle Kasplat: Inside the Tree",
     "hint_region": "Castlesurroundings",
     "level": "Creepy Castle",
-    "kong": "Any",
+    "kong": "Donkey",
     "type": "Blueprint",
     "requirement_count": 1,
     "moves": [
@@ -3326,9 +3182,7 @@
     "kong": "Lanky",
     "type": "Banana",
     "requirement_count": 0,
-    "moves": [
-      "slam"
-    ]
+    "moves": ["slam"]
   },
   {
     "id": "CastleBattleArena",
@@ -3338,9 +3192,7 @@
     "kong": "Any",
     "type": "Crown",
     "requirement_count": 0,
-    "moves": [
-      "slam"
-    ]
+    "moves": ["slam"]
   },
   {
     "id": "CastleTinyTrashCan",
@@ -3386,7 +3238,7 @@
     "name": "Castle Kasplat: Lower Cave Center",
     "hint_region": "Castleunderground",
     "level": "Creepy Castle",
-    "kong": "Any",
+    "kong": "Diddy",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -3476,7 +3328,7 @@
     "name": "Castle Kasplat: Near Candy's",
     "hint_region": "Castleunderground",
     "level": "Creepy Castle",
-    "kong": "Any",
+    "kong": "Chunky",
     "type": "Blueprint",
     "requirement_count": 0,
     "moves": []
@@ -3632,9 +3484,7 @@
     "kong": "Any",
     "type": "Key",
     "requirement_count": 0,
-    "moves": [
-      "monkeyport"
-    ]
+    "moves": ["monkeyport"]
   },
   {
     "id": "RarewareCoin",
@@ -3642,7 +3492,7 @@
     "hint_region": "Jetpac",
     "level": "Shops",
     "kong": "Any",
-    "type": "RarewareCoin",
+    "type": "Misc",
     "requirement_count": 0,
     "moves": []
   },
@@ -3693,9 +3543,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location04",
@@ -3718,10 +3566,7 @@
     "type": "RainbowCoin",
     "requirement_count": 2,
     "moves": [
-      "shockwave",
-      "barrels",
-      "rocketbarrel",
-      "trombone"
+      "shockwave", "barrels", "rocketbarrel", "trombone"
     ]
   },
   {
@@ -3732,9 +3577,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location07",
@@ -3744,9 +3587,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location08",
@@ -3756,9 +3597,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location09",
@@ -3797,9 +3636,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location12",
@@ -3809,9 +3646,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location13",
@@ -3821,9 +3656,7 @@
     "kong": "Any",
     "type": "RainbowCoin",
     "requirement_count": 0,
-    "moves": [
-      "shockwave"
-    ]
+    "moves": ["shockwave"]
   },
   {
     "id": "RainbowCoin_Location14",
@@ -3870,9 +3703,7 @@
     "kong": "Any",
     "type": "CrateItem",
     "requirement_count": 0,
-    "moves": [
-      "coconut"
-    ]
+    "moves": ["coconut"]
   },
   {
     "id": "MelonCrate_Location02",
@@ -3882,9 +3713,7 @@
     "kong": "Any",
     "type": "CrateItem",
     "requirement_count": 0,
-    "moves": [
-      "blast"
-    ]
+    "moves": ["blast"]
   },
   {
     "id": "MelonCrate_Location03",
@@ -3946,9 +3775,7 @@
     "kong": "Any",
     "type": "CrateItem",
     "requirement_count": 0,
-    "moves": [
-      "grape"
-    ]
+    "moves": ["grape"]
   },
   {
     "id": "MelonCrate_Location09",
@@ -3978,10 +3805,7 @@
     "kong": "Any",
     "type": "CrateItem",
     "requirement_count": 0,
-    "moves": [
-      "strong",
-      "slam"
-    ]
+    "moves": ["strong", "slam"]
   },
   {
     "id": "MelonCrate_Location12",
@@ -4052,7 +3876,7 @@
     "requirement_count": 3,
     "moves": [
       "barrels",
-      "hunky"
+      "hunky"   
     ]
   },
   {
