@@ -913,7 +913,7 @@ class DonkdleGame {
                 // Validate that saved guesses have the current feedback structure
                 if (state.guesses && state.guesses.length > 0) {
                     const firstGuess = state.guesses[0];
-                    if (!firstGuess.feedback || !firstGuess.feedback.moves) {
+                    if (!firstGuess.feedback || !firstGuess.feedback.moves || !firstGuess.feedback.type) {
                         // Old format - clear saved state
                         console.log('Clearing old game format');
                         localStorage.removeItem(this.getTodayKey());
