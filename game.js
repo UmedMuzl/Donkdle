@@ -298,13 +298,13 @@ class DonkdleGame {
                 // Check if this location has been guessed before
                 const previousGuess = this.guesses.find(g => g.location.id === loc.id);
                 let regionClass = '';
-                let kongClass = '';
+                let typeClass = '';
                 let reqClass = '';
                 let movesHTML = '';
                 
                 if (previousGuess) {
                     regionClass = `status-${previousGuess.feedback.region.status}`;
-                    kongClass = `status-${previousGuess.feedback.kong.status}`;
+                    typeClass = `status-${previousGuess.feedback.type.status}`;
                     reqClass = `status-${previousGuess.feedback.requirement.status}`;
                     
                     // Build colored moves display
@@ -338,7 +338,7 @@ class DonkdleGame {
                         <div class="autocomplete-details">
                             <span class="autocomplete-region ${regionClass}">${this.formatRegionName(loc.hint_region)}</span>
                             <span class="autocomplete-separator">•</span>
-                            <span class="autocomplete-kong ${kongClass}">${loc.kong}</span>
+                            <span class="autocomplete-type ${typeClass}">${loc.kong === "Any" ? loc.type : loc.kong}</span>
                             <span class="autocomplete-separator">•</span>
                             <span class="autocomplete-req ${reqClass}">${reqCount} moves</span>
                         </div>
@@ -470,17 +470,25 @@ class DonkdleGame {
             regionStatus = 'present';
         }
 
-        // Kong evaluation - handle multiple kongs (green for exact match, gray otherwise)
-        let kongStatus = 'absent';
-        const guessedKongs = guessed.kong.split(',').map(k => k.trim());
-        const targetKongs = target.kong.split(',').map(k => k.trim());
+        // Kong/Type evaluation - display kong unless it's "Any", then display type
+        let typeStatus = 'absent';
+        let typeValue = '';
+        let typeLabel = '';
         
-        // Check if kong lists match exactly
-        const guessedSet = new Set(guessedKongs);
-        const targetSet = new Set(targetKongs);
-        
-        if (guessedSet.size === targetSet.size && [...guessedSet].every(k => targetSet.has(k))) {
-            kongStatus = 'correct';
+        if (guessed.kong === "Any") {
+            // When kong is "Any", compare and display type
+            typeValue = guessed.type;
+            typeLabel = 'TYPE';
+            if (guessed.type === target.type) {
+                typeStatus = 'correct';
+            }
+        } else {
+            // When kong is specific, compare and display kong
+            typeValue = guessed.kong;
+            typeLabel = 'KONG';
+            if (guessed.kong === target.kong) {
+                typeStatus = 'correct';
+            }
         }
         // No yellow/present state - either correct or absent
 
@@ -541,7 +549,7 @@ class DonkdleGame {
 
         return {
             region: { status: regionStatus, value: guessed.hint_region },
-            kong: { status: kongStatus, value: guessed.kong },
+            type: { status: typeStatus, value: typeValue, label: typeLabel },
             requirement: { 
                 status: requirementStatus, 
                 value: guessedReqCount,
@@ -596,14 +604,15 @@ class DonkdleGame {
         `;
         row.appendChild(regionCell);
 
-        // Kong cell
-        const kongCell = document.createElement('div');
-        kongCell.className = `guess-cell ${animate ? '' : guess.feedback.kong.status}`;
-        kongCell.innerHTML = `
-            <div class="cell-label">KONG</div>
-            <div class="cell-value">${guess.feedback.kong.value}</div>
+        // Kong/Type cell (dynamically labeled)
+        const typeCell = document.createElement('div');
+        typeCell.className = `guess-cell ${animate ? '' : guess.feedback.type.status}`;
+        const cellLabel = guess.feedback.type.label || 'KONG'; // Fallback for old saved games
+        typeCell.innerHTML = `
+            <div class="cell-label">${cellLabel}</div>
+            <div class="cell-value">${guess.feedback.type.value}</div>
         `;
-        row.appendChild(kongCell);
+        row.appendChild(typeCell);
 
         // Requirement cell
         const reqCell = document.createElement('div');
@@ -673,10 +682,10 @@ class DonkdleGame {
 
         // Apply flip animation to cells if this is a new guess
         if (animate) {
-            const cells = [regionCell, kongCell, reqCell, movesCell];
+            const cells = [regionCell, typeCell, reqCell, movesCell];
             const statuses = [
                 guess.feedback.region.status,
-                guess.feedback.kong.status,
+                guess.feedback.type.status,
                 guess.feedback.requirement.status,
                 guess.feedback.moves.status
             ];
