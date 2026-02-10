@@ -7,6 +7,7 @@ class DonkdleGame {
         this.gameOver = false;
         this.gameWon = false;
         this.mode = this.getGameMode();
+        this.version = this.getGameVersion();
         this.hardMode = this.getHardMode();
         this.maxGuesses = this.hardMode ? 6 : Infinity;
         
@@ -31,6 +32,11 @@ class DonkdleGame {
     getGameMode() {
         const params = new URLSearchParams(window.location.search);
         return params.get('mode') || 'daily';
+    }
+
+    getGameVersion() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('version') || '1';
     }
 
     getHardMode() {
@@ -338,7 +344,7 @@ class DonkdleGame {
                         <div class="autocomplete-details">
                             <span class="autocomplete-region ${regionClass}">${this.formatRegionName(loc.hint_region)}</span>
                             <span class="autocomplete-separator">•</span>
-                            <span class="autocomplete-type ${typeClass}">${loc.kong === "Any" ? loc.type : loc.kong}</span>
+                            <span class="autocomplete-type ${typeClass}">${this.version === '2' && loc.kong === "Any" ? loc.type : loc.kong}</span>
                             <span class="autocomplete-separator">•</span>
                             <span class="autocomplete-req ${reqClass}">${reqCount} moves</span>
                         </div>
@@ -470,23 +476,41 @@ class DonkdleGame {
             regionStatus = 'present';
         }
 
-        // Kong/Type evaluation - display kong unless it's "Any", then display type
+        // Kong/Type evaluation - version dependent
         let typeStatus = 'absent';
         let typeValue = '';
         let typeLabel = '';
         
-        if (guessed.kong === "Any") {
-            // When kong is "Any", compare and display type
-            typeValue = guessed.type;
-            typeLabel = 'TYPE';
-            if (guessed.type === target.type) {
-                typeStatus = 'correct';
+        if (this.version === '2') {
+            // Version 2.0: Display kong unless it's "Any", then display type
+            if (guessed.kong === "Any") {
+                // When kong is "Any", compare and display type
+                typeValue = guessed.type;
+                typeLabel = 'TYPE';
+                if (guessed.type === target.type) {
+                    typeStatus = 'correct';
+                }
+            } else {
+                // When kong is specific, compare and display kong
+                typeValue = guessed.kong;
+                typeLabel = 'KONG';
+                if (guessed.kong === target.kong) {
+                    typeStatus = 'correct';
+                }
             }
         } else {
-            // When kong is specific, compare and display kong
+            // Version 1.0: Always compare and display kong
             typeValue = guessed.kong;
             typeLabel = 'KONG';
-            if (guessed.kong === target.kong) {
+            
+            const guessedKongs = guessed.kong.split(',').map(k => k.trim());
+            const targetKongs = target.kong.split(',').map(k => k.trim());
+            
+            // Check if kong lists match exactly
+            const guessedSet = new Set(guessedKongs);
+            const targetSet = new Set(targetKongs);
+            
+            if (guessedSet.size === targetSet.size && [...guessedSet].every(k => targetSet.has(k))) {
                 typeStatus = 'correct';
             }
         }
@@ -738,6 +762,24 @@ class DonkdleGame {
     }
 
     showModal(modalId) {
+        // Update help modal content based on version
+        if (modalId === 'helpModal') {
+            const kongHelpSection = document.querySelector('#helpModal .help-section:nth-child(2)');
+            if (this.version === '2') {
+                kongHelpSection.innerHTML = `
+                    <h3>🐵 Kong / 🎯 Type</h3>
+                    <p>Shows which Kong is needed, or the collectible type if any Kong works</p>
+                    <p><span class="color-box green">Green</span> = Correct kong or type</p>
+                    <p><span class="color-box Gray">Gray</span> = Wrong kong or type</p>
+                `;
+            } else {
+                kongHelpSection.innerHTML = `
+                    <h3>🐵 Kong</h3>
+                    <p><span class="color-box green">Green</span> = Correct kong(s)</p>
+                    <p><span class="color-box Gray">Gray</span> = No kong matches</p>
+                `;
+            }
+        }
         document.getElementById(modalId).classList.add('active');
     }
 
